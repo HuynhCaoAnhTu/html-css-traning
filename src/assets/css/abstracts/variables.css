@@ -1,0 +1,66 @@
+:root{
+  --state-light: #6E757C;
+  --color-primary: #FF6E30;
+}
+.text--chip{
+  color: var(--color-secondary, #748FB5);
+  font-family: Inter-Extrabold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.text--tiny{
+  color: var(--state-bold, #272E35);
+  font-family: Inter-Extrabold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 0.75;
+
+}
+.text--sup-bg{
+  color: var(--state-bold, #272E35);
+  font-family: Poppins-SemiBold, sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.text--medium{
+  font-family: Inter-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--state-light, #6E757C);
+}
+.text--headline-bg{
+  color: var(--state-bold-white, #FFF);
+font-family: Poppins-SemiBold;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+}
+.text--headline-md{
+  color: var(--state-bold, #272E35);
+font-family: Poppins-SemiBold;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+}
+.text--body-md{
+  color: var(--state-light-for-dark-bg, #6A7986);
+/* body/body large - 16 - Medium */
+font-family: Inter-Medium;
+display: flex;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}

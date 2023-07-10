@@ -1,0 +1,25 @@
+{
+  "name": "test-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "posthtml": "^0.16.6",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
+  },
+  "posthtml": {
+    "plugins": {
+      "posthtml-include": {}
+    }
+  }
+}
