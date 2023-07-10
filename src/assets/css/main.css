@@ -2,6 +2,7 @@
 @import url(./base/typography.css);
 
 @import url(./layouts/header.css);
+@import url(./layouts/hero.css);
 
 @import url(./abstracts/variables.css);
 
