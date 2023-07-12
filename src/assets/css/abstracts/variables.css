@@ -1,9 +1,14 @@
 :root{
   --state-light: #6E757C;
   --color-primary: #FF6E30;
+  --color-secondary:#748FB5;
+  --state-bold: #272E35;
+  --state-light: #6E757C;
+  --state-bold-white: #FFF;
 }
+
 .text--chip{
-  color: var(--color-secondary, #748FB5);
+  color: var(--color-secondary);
   font-family: Inter-Extrabold;
   font-size: 12px;
   font-style: normal;
@@ -12,6 +17,7 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
+
 .text--tiny{
   color: var(--state-bold, #272E35);
   font-family: Inter-Extrabold;
@@ -19,11 +25,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  opacity: 0.75;
-
 }
 .text--sup-bg{
-  color: var(--state-bold, #272E35);
+  color: var(--state-bold);
   font-family: Poppins-SemiBold, sans-serif;
   font-size: 72px;
   font-style: normal;
@@ -37,30 +41,47 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  color: var(--state-light, #6E757C);
+  color: var(--state-light);
 }
+
 .text--headline-bg{
-  color: var(--state-bold-white, #FFF);
+color: var(--state-bold-white);
 font-family: Poppins-SemiBold;
 font-size: 48px;
 font-weight: 600;
 line-height: 56px;
 }
+
 .text--headline-md{
-  color: var(--state-bold, #272E35);
+  color: var(--state-bold);
 font-family: Poppins-SemiBold;
 font-size: 32px;
 font-style: normal;
 font-weight: 600;
 line-height: 40px;
 }
+
 .text--body-md{
-  color: var(--state-light-for-dark-bg, #6A7986);
-/* body/body large - 16 - Medium */
 font-family: Inter-Medium;
 display: flex;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
+color: var(--state-light) ;
+
+}
+
+.text--black{
+  color:  #272E35;
+}
+.text--white{
+  color:  #FFFFFF;
+}
+.text--light-dark{
+  color:  #6A7986 ;
+}
+
+.text--opacity{
+  opacity: 0.75;
 }
