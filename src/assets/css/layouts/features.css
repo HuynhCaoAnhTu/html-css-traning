@@ -38,7 +38,7 @@
   flex-direction: column;
   gap: 57px;
 }
-HEAD .features__content-icon-cursor {
+.features__content-icon-cursor {
   position: absolute;
   bottom: 286px;
   right: 217px;
