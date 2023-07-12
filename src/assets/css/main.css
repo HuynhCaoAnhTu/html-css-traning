@@ -1,6 +1,6 @@
 @import url(./base/reset.css);
 @import url(./base/typography.css);
-
+/* layout */
 @import url(./layouts/header.css);
 @import url(./layouts/hero.css);
 
