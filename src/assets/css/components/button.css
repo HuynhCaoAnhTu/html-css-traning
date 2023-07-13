@@ -1,13 +1,13 @@
 .btn--primary {
   display: flex;
   flex-shrink: 0;
-  gap: 10px;
   border-radius: 16px;
   color: var(--state-light, #6e757c);
   font-family: Inter-Bold;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  border: 2px solid transparent;
 
 }
 .btn--secondary {
@@ -15,6 +15,7 @@
   border-radius: 16px;
   background: var(--color-primary-cta, #ff6e30);
   color: var(--state-bold-white, #fff);
+  border: 2px solid var(--color-primary-cta,#ff6e30);
   font-family: Inter-Bold;
   font-size: 16px;
   font-weight: 700;
@@ -29,6 +30,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  width: fit-content;
 }
 
 .btn--primary-border-w {
@@ -44,9 +46,9 @@
 }
 
 .btn--big {
-  padding: 16px 22px;
+  padding: 14px 24px;
 }
 
 .btn--small {
-  padding: 12px 24px;
+  padding: 12px 22px;
 }
