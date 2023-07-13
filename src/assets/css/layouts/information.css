@@ -65,7 +65,6 @@
 .information__detail-item:nth-child(5) {
   padding:0 57px 0 57px;
 }
-
 .information__detail-label {
   border-radius: 90px; 
   background: var(--color-white-background, #fff);
