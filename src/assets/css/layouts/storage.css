@@ -1,11 +1,12 @@
 .storage{
-  margin: 100px 160px 100px 160px;
+  margin: 178px 160px 0;
   height: 591px;
   border-radius: 24px;
   background: var(--color-light-background, #F7F7F8);
   box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.10);
   position: relative;
   display: flex;
+
   gap: 24px;
 }
 .storage__content{
