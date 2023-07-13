@@ -55,6 +55,14 @@
   font-weight: 600;
   line-height: 40px;
 }
+.text--headline-sm {
+  color: var(--state-bold);
+  font-family: Poppins-SemiBold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
 .text--body-md {
   font-family: Inter-Medium;
   display: flex;
@@ -64,13 +72,13 @@
   line-height: 24px;
   color: var(--state-light);
 }
-.text--btn-lg{
+.text--btn-lg {
   font-family: Inter-Bold;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; 
-  }
+  line-height: 24px;
+}
 .text--black {
   color: #272e35;
 }
@@ -83,4 +91,3 @@
 .text--opacity {
   opacity: 0.75;
 }
-
