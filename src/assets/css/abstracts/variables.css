@@ -1,13 +1,13 @@
-:root{
-  --state-light: #6E757C;
-  --color-primary: #FF6E30;
-  --color-secondary:#748FB5;
-  --state-bold: #272E35;
-  --state-light: #6E757C;
-  --state-bold-white: #FFF;
+:root {
+  --state-light: #6e757c;
+  --color-primary: #ff6e30;
+  --color-secondary: #748fb5;
+  --state-bold: #272e35;
+  --state-light: #6e757c;
+  --state-bold-white: #fff;
 }
 
-.text--chip{
+.text--chip {
   color: var(--color-secondary);
   font-family: Inter-Extrabold;
   font-size: 12px;
@@ -18,15 +18,15 @@
   text-transform: uppercase;
 }
 
-.text--tiny{
-  color: var(--state-bold, #272E35);
+.text--tiny {
+  color: var(--state-bold, #272e35);
   font-family: Inter-Extrabold;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
-.text--sup-bg{
+.text--sup-bg {
   color: var(--state-bold);
   font-family: Poppins-SemiBold, sans-serif;
   font-size: 72px;
@@ -35,7 +35,7 @@
   line-height: 80px;
 }
 
-.text--medium{
+.text--medium {
   font-family: Inter-Medium;
   font-size: 16px;
   font-style: normal;
@@ -44,44 +44,43 @@
   color: var(--state-light);
 }
 
-.text--headline-bg{
-color: var(--state-bold-white);
-font-family: Poppins-SemiBold;
-font-size: 48px;
-font-weight: 600;
-line-height: 56px;
+.text--headline-bg {
+  color: var(--state-bold-white);
+  font-family: Poppins-SemiBold;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
 }
 
-.text--headline-md{
+.text--headline-md {
   color: var(--state-bold);
-font-family: Poppins-SemiBold;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 40px;
+  font-family: Poppins-SemiBold;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
 }
 
-.text--body-md{
-font-family: Inter-Medium;
-display: flex;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-color: var(--state-light) ;
-
+.text--body-md {
+  font-family: Inter-Medium;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--state-light);
 }
 
-.text--black{
-  color:  #272E35;
+.text--black {
+  color: #272e35 ;
 }
-.text--white{
-  color:  #FFFFFF;
+.text--white {
+  color: #ffffff;
 }
-.text--light-dark{
-  color:  #6A7986 ;
+.text--light-dark {
+  color: #6a7986;
 }
 
-.text--opacity{
+.text--opacity {
   opacity: 0.75;
 }
