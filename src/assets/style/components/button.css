@@ -11,6 +11,7 @@
   border: 2px solid var(--color-primary-cta, #ff6e30);
   background: var(--color-primary-cta, #ff6e30);
   color: var(--state-bold-white, #fff);
+  width: fit-content;
 }
 .btn--primary-border {
   border-radius: 16px;
