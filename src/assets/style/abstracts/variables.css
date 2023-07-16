@@ -10,7 +10,6 @@
   color: var(--color-secondary);
   font-family: Inter-Extrabold;
   font-size: 12px;
-  font-style: normal;
   font-weight: 900;
   line-height: 16px;
   letter-spacing: 1.2px;
@@ -20,7 +19,6 @@
   color: var(--state-bold, #272e35);
   font-family: Inter-Extrabold;
   font-size: 12px;
-  font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
@@ -28,14 +26,12 @@
   color: var(--state-bold);
   font-family: Poppins-SemiBold, sans-serif;
   font-size: 72px;
-  font-style: normal;
   font-weight: 600;
   line-height: 80px;
 }
 .text--medium {
   font-family: Inter-Medium;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   color: var(--state-light);
@@ -51,7 +47,6 @@
   color: var(--state-bold);
   font-family: Poppins-SemiBold;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 40px;
 }
@@ -59,15 +54,19 @@
   color: var(--state-bold);
   font-family: Poppins-SemiBold;
   font-size: 20px;
-  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.text--headline-tiny {
+  color: var(--state-bold);
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
 }
 .text--body-md {
   font-family: Inter-Medium;
-  display: flex;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   color: var(--state-light);
@@ -75,7 +74,6 @@
 .text--btn-lg {
   font-family: Inter-Bold;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
