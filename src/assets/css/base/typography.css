@@ -59,7 +59,7 @@
   color: var(--color-black);
   font-family: Inter-ExtraBold;
   font-size: var(--fs-tiny);
-  font-weight: var(--fw-mediun);
+  font-weight: var(--fw-medium);
   line-height: var(--lh-small);
 }
 
@@ -90,7 +90,7 @@
 .text--headline-bg {
   color: var( --color-black-white);
   font-family: Poppins-SemiBold;
-  font-size: var(--fs-xx-large);
+  font-size: var(--fs-large);
   font-weight: var(--fw-normal);
   line-height: var(--lh-big);
 }
@@ -100,7 +100,7 @@
   font-family: Poppins-SemiBold;
   font-size: var(--fs-xx-big);
   font-weight: var(--fw-normal);
-  line-height: var(--lh-mediun);
+  line-height: var(--lh-medium);
 }
 
 .text--headline-sm {
@@ -130,7 +130,7 @@
 .text--btn-lg {
   font-family: Inter-Bold;
   font-size: var(--fs-normal);
-  font-weight: var(--fw-mediun);
+  font-weight: var(--fw-medium);
   line-height: var(--lh-small);
 }
 
