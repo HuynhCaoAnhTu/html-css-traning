@@ -66,9 +66,17 @@
 .text--sup-bg {
   color: var( --color-black);
   font-family: Poppins-SemiBold;
-  font-size: var(--fs-xx-huge);
+  font-size: var(--fs-huge);
   font-weight: var(--fw-normal);
   line-height: var(--lh-large);
+}
+
+.text--sub-headline {
+  color: var( --color-grey);
+  font-family: Inter-Regular;
+  font-size: var(--fs-x-big);
+  font-weight: var(--fw-tiny);
+  line-height: var(--lh-small);
 }
 
 .text--medium {
