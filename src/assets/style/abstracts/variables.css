@@ -3,8 +3,14 @@
   --color-primary: #ff6e30;
   --color-secondary: #748fb5;
   --state-bold: #272e35;
-  --state-light: #6e757c;
   --state-bold-white: #fff;
+}
+.text--menu {
+  color: var(--state-light, #6e757c);
+  font-family: Inter-Semibold;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }
 .text--chip {
   color: var(--color-secondary);
@@ -75,6 +81,14 @@
   font-family: Inter-Bold;
   font-size: 16px;
   font-weight: 700;
+  line-height: 24px;
+}
+.text--caption {
+  color: var(--state-light, #6e757c);
+  font-family: Inter-Semibold;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
   line-height: 24px;
 }
 .text--black {
