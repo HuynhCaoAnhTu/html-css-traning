@@ -34,4 +34,33 @@ Estimate: **9 days** (_July 07, 2023 - July 19, 2023_)
 * Slice from Sketch to HTML/CSS
 * Understand the concepts of Flex
 
+## Environment
 
+* Nodejs v18.16.1
+* npm 9.5.1
+
+## Getting started:
+
+- Step 01: Clone repository with HTTPS:
+
+```bash
+git clone https://github.com/HuynhCaoAnhTu/Practice_One/tree/practice-one
+```
+
+- Step 02: Change to branch /practice-one:
+
+```bash
+git checkout practice-one
+```
+
+- Step 03: Install dependencies project
+
+```bash
+npm i
+```
+
+- Step 04: Run project
+
+```bash
+npm run dev
+```

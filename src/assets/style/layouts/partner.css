@@ -4,13 +4,15 @@
     flex-direction: column;
     text-align: center;
     gap: 24px;
-}
+} 
+
 .partner__list{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap:32px;
 }
+
 .partner__logo>img{
     width: 160px;
     height: 64px;
