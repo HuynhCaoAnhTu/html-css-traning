@@ -1,91 +1,31 @@
 :root {
-  --state-light: #6e757c;
+  /* color variable */
+  --color-grey: #6e757c;
   --color-primary: #ff6e30;
   --color-secondary: #748fb5;
-  --state-bold: #272e35;
-  --state-light: #6e757c;
-  --state-bold-white: #fff;
-}
-.text--chip {
-  color: var(--color-secondary);
-  font-family: Inter-Extrabold;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 16px;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-}
-.text--tiny {
-  color: var(--state-bold, #272e35);
-  font-family: Inter-Extrabold;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 24px;
-}
-.text--sup-bg {
-  color: var(--state-bold);
-  font-family: Poppins-SemiBold, sans-serif;
-  font-size: 72px;
-  font-weight: 600;
-  line-height: 80px;
-}
-.text--medium {
-  font-family: Inter-Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: var(--state-light);
-}
-.text--headline-bg {
-  color: var(--state-bold-white);
-  font-family: Poppins-SemiBold;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-}
-.text--headline-md {
-  color: var(--state-bold);
-  font-family: Poppins-SemiBold;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 40px;
-}
-.text--headline-sm {
-  color: var(--state-bold);
-  font-family: Poppins-SemiBold;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
-}
-.text--headline-tiny {
-  color: var(--state-bold);
-  font-family: Poppins-SemiBold;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 24px;
-}
-.text--body-md {
-  font-family: Inter-Medium;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: var(--state-light);
-}
-.text--btn-lg {
-  font-family: Inter-Bold;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-}
-.text--black {
-  color: #272e35;
-}
-.text--white {
-  color: #ffffff;
-}
-.text--light-dark {
-  color: #6a7986;
-}
-.text--opacity {
-  opacity: 0.75;
+  --color-black: #272e35;
+  --color-white: #fff;
+ /* font-size variable */
+  --fs-tiny: 12px;
+  --fs-small: 13px;
+  --fs-normal: 16px;
+  --fs-big: 18px;
+  --fs-x-big: 20px;
+  --fs-m-big: 24px;
+  --fs-xx-big: 32px;
+  --fs-large: 48px;
+  --fs-huge: 72px;
+/* font-weight variable */
+  --fw-tiny: 400;
+  --fw-light: 500;
+  --fw-normal:600;
+  --fw-medium: 700;
+  --fw-bold: 900;
+/* line-high variable */
+  --lh-tiny:16px;
+  --lh-small:24px;
+  --lh-normal:32px;
+  --lh-medium:40px ;
+  --lh-big: 56px;
+  --lh-large: 80px;
 }
