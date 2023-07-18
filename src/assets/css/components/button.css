@@ -1,35 +1,70 @@
 .btn--primary {
-  display: flex;
-  flex-shrink: 0;
-  gap: 10px;
   border-radius: 16px;
   border: 2px solid transparent;
-  color: var(--state-light, #6e757c);
-}
-.btn--secondary {
-  flex-shrink: 0;
-  border-radius: 16px;
-  border: 2px solid var(--color-primary-cta, #ff6e30);
-  background: var(--color-primary-cta, #ff6e30);
-  color: var(--state-bold-white, #fff);
-}
-.btn--primary-border {
-  border-radius: 16px;
-  border: 2px solid #272e35;
-  opacity: 0.75;
-  color: #272e35;
-}
-.btn--primary-border-w {
-  border-radius: 16px;
-  border: 2px solid #fff;
-  opacity: 0.75;
-  color: var(--state-bold-white, #fff);
-  font-family: Inter-Bold;
+  color: var(--color-grey);
   width: fit-content;
 }
+
+.btn--secondary {
+  border-radius: 16px;
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+  width: fit-content;
+}
+
+.btn--primary-border {
+  border-radius: 16px;
+  border: 2px solid var(--color-grey);
+  opacity: 0.75;
+  color: var(--color-black);
+  width: fit-content;
+}
+
+.btn--primary-border-w {
+  border-radius: 16px;
+  border: 2px solid var(--color-white);
+  opacity: 0.75;
+  color: var(--color-white);
+  width: fit-content;
+}
+
 .btn--big {
   padding: 14px 22px;
 }
+
 .btn--small {
   padding: 12px 24px;
+}
+
+.btn--primary:hover{
+  border: 2px  solid var(--color-grey);
+  transition: 0.3s;
+  box-shadow: 0 3px #21212133;
+}
+
+.btn--secondary:hover{
+  border: 2px solid var(--color-grey);
+  background-color: transparent;
+  color: var(--color-grey);
+  transition: 0.3s;
+  box-shadow: 0 3px #21212133;
+}
+
+.btn--primary-border:hover{
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 0 3px #21212133;
+}
+
+.btn--primary-border-w:hover{
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 0 3px #21212133;
 }
