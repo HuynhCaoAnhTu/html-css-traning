@@ -140,6 +140,14 @@
   line-height: var(--lh-small);
 }
 
+.text--comment-md {
+  color:var(--color-black) ;
+  font-family: Poppins-SemiBold;
+  font-size:  var(--fs-m-big);
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-normal);
+}
+
 .text--black {
   color: var(--color-black);
 }

@@ -11,6 +11,7 @@
   --fs-normal: 16px;
   --fs-big: 18px;
   --fs-x-big: 20px;
+  --fs-m-big: 24px;
   --fs-xx-big: 32px;
   --fs-large: 48px;
   --fs-huge: 72px;
@@ -23,6 +24,7 @@
 /* line-high variable */
   --lh-tiny:16px;
   --lh-small:24px;
+  --lh-normal:32px;
   --lh-medium:40px ;
   --lh-big: 56px;
   --lh-large: 80px;
