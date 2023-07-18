@@ -1,0 +1,113 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.features__image {
+  width: fit-content;
+  margin: 0 auto;
+}
+.features__title {
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  gap: 16px;
+}
+.features__stay-focus {
+  background-image: url(/src/assets/images/features/stay_focus_app_ui.png), none;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-position: left 23px top 1px;
+
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+}
+.features__content-stay-focus {
+  margin: 75px 0 75px 0;
+  display: flex;
+  flex-direction: row;
+}
+.features__content {
+  width: 405px;
+  position: relative;
+  margin: 177px 0 84px 875px;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.features__content-icon-cursor {
+  position: absolute;
+  bottom: 286px;
+  right: 217px;
+}
+.features__content-icon-bubble {
+  position: absolute;
+  bottom: 288px;
+  right: 218px;
+}
+.features__content-icon {
+  position: absolute;
+  top: -137px;
+  left: -148px;
+}
+.features__content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.features__pagination {
+  margin: 217px 0px auto 100px;
+}
+.features__share-files {
+  background-image: url(/src/assets/images/features/share_files_app_ui.png),
+    none;
+
+  height: 611px;
+  background-repeat: no-repeat;
+  background-position: 82px 0;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+}
+.features__content-share-files {
+  width: 405px;
+  position: relative;
+  margin: 184px 0 84px 875px;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.features__content-icon-bubble {
+  position: absolute;
+  bottom: 358px;
+  right: 279px;
+}
+
+.features__collab {
+  background-image: url(/src/assets/images/features/collab_app_ui.png), none;
+  height: 636px;
+  background-repeat: no-repeat;
+  background-position: 56px 0;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+.features__content-collab {
+  width: 405px;
+  position: relative;
+  margin: 176px 0 84px 875px;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.features__content-icon-plane {
+  position: absolute;
+  bottom: 390px;
+  right: 212px;
+}
+.image-cover {
+  height: 356px;
+}

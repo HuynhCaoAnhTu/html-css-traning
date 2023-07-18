@@ -28,10 +28,6 @@
   right: 301px;
 }
 
-.information__text-body {
-
-}
-
 .information__detail {
   display: flex;
   margin: 0 8px;
@@ -66,7 +62,6 @@
   padding: 58px 50px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
-
 }
 
 .information__detail-label {
