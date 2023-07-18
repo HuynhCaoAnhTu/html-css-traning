@@ -1,0 +1,29 @@
+:root {
+  /* color variable */
+  --color-grey: #6e757c;
+  --color-primary: #ff6e30;
+  --color-secondary: #748fb5;
+  --color-black: #272e35;
+  --color-white: #fff;
+ /* font-size variable */
+  --fs-tiny: 12px;
+  --fs-small: 13px;
+  --fs-normal: 16px;
+  --fs-big: 18px;
+  --fs-x-big: 20px;
+  --fs-xx-big: 32px;
+  --fs-large: 48px;
+  --fs-huge: 72px;
+/* font-weight variable */
+  --fw-tiny: 400;
+  --fw-light: 500;
+  --fw-normal:600;
+  --fw-medium: 700;
+  --fw-bold: 900;
+/* line-high variable */
+  --lh-tiny:16px;
+  --lh-small:24px;
+  --lh-medium:40px ;
+  --lh-big: 56px;
+  --lh-large: 80px;
+}

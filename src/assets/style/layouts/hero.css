@@ -1,0 +1,30 @@
+ .hero {
+  margin: 186px 160px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.hero__content-title {
+  margin: 24px 0 20px 0;
+}
+
+.hero__content-button {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.hero__image {
+  position: absolute;
+  top: -270px;
+  left: 401px;
+  z-index: -9;
+}
+
+.icon-play {
+  font-size: 13px;
+  margin-right: 9px;
+  margin-left: 4px;
+}
