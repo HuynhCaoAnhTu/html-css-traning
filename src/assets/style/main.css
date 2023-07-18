@@ -10,6 +10,8 @@
 @import url(./layouts/features.css);
 @import url(./layouts/storage.css);
 @import url(./layouts/values.css);
+@import url(./layouts/integrations.css);
+
 
 
 @import url(./components/button.css);
