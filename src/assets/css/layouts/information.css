@@ -30,10 +30,6 @@
   z-index: -2;
 }
 
-.information__text-body {
-
-}
-
 .information__detail {
   display: flex;
   margin: 0 8px;

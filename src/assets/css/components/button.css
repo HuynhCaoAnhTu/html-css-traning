@@ -15,7 +15,7 @@
 
 .btn--primary-border {
   border-radius: 16px;
-  border: 2px solid var(--color-grey);
+  border: 2px solid var(--color-black);
   opacity: 0.75;
   color: var(--color-black);
   width: fit-content;
