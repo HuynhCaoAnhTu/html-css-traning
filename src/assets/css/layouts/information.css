@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: end;
   background-image: url(/src/assets/images/information/infor_backround.png);
+  z-index: 1;
 }
 
 .information__content {
@@ -26,6 +27,7 @@
   position: absolute;
   top: -130px;
   right: 301px;
+  z-index: -2;
 }
 
 .information__text-body {
