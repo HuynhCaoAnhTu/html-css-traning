@@ -1,3 +1,8 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html,
 body,
 div,
@@ -126,10 +131,6 @@ html {
   width: 1440;
   height: 6314px;
   margin: 0 auto;
-}
-body {
-  font-family: Circula Std-Bold;
-  background-color: #ebebeb !important;
 }
 a {
   text-decoration: none;

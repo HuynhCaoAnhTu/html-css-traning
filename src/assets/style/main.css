@@ -1,3 +1,4 @@
+@import url(./abstracts/variables.css);
 @import url(./base/reset.css);
 @import url(./base/typography.css);
 /* layout */
@@ -14,7 +15,5 @@
 @import url(./layouts/notification.css);
 @import url(./layouts/productivity.css);
 
-
-@import url(./abstracts/variables.css);
 
 @import url(./components/button.css);
