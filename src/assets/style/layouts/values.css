@@ -1,6 +1,7 @@
 .values {
   margin: 136px 160px;
 }
+
 .values__content-list {
   display: flex;
   flex-direction: row;
@@ -8,15 +9,18 @@
   row-gap: 72px;
   column-gap: 82px;
 }
+
 .values__content-item {
  
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
+
 .values__content-img {
   width: fit-content;
 }
+
 .value-divider {
   width: 80px;
   height: 4px;
