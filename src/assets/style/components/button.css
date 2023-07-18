@@ -1,4 +1,5 @@
 .btn--primary {
+  gap: 10px;
   border-radius: 16px;
   border: 2px solid transparent;
   color: var(--color-grey);
@@ -17,7 +18,7 @@
   border-radius: 16px;
   border: 2px solid var(--color-black);
   opacity: 0.75;
-  color: var(--color-black);
+  color: #272e35;
   width: fit-content;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .btn--small {
-  padding: 12px 24px;
+  padding: 12px 22px;
 }
 
 .btn--primary:hover{
