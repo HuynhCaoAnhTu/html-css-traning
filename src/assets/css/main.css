@@ -4,10 +4,6 @@
 /* layout */
 @import url(./layouts/header.css);
 @import url(./layouts/hero.css);
-@import url(./layouts/partner.css);
-@import url(./layouts/information.css);
-@import url(./layouts/work.css);
-@import url(./layouts/features.css);
 
 
 @import url(./components/button.css);
