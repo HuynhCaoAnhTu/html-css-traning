@@ -7,15 +7,15 @@
   justify-content: space-between;
 }
 
+.header-logo{
+  min-width: 137px;
+  min-height: 48px;
+}
+
 .header__content {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.header__logo-image {
-  width: 138px;
-  height: 48px;
 }
 
 .header__nav-list {
