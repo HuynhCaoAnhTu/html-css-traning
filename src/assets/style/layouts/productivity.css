@@ -9,6 +9,7 @@
   position: relative;
   height: 770px;
   gap: 232px;
+  overflow-x:hidden ;
 }
 
 .productivity-image {
