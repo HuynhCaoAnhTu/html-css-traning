@@ -1,22 +1,37 @@
 .get-start {
   border-radius: 24px;
   background: #2c353d;
-  height: 600px;
   margin: 136px 160px;
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
+}
+
+.get-start::after {
+  content: "";
+  position: absolute;
+  width: 497px;
+  height: 497px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #AE80DC , #8084DC);
+  mix-blend-mode: overlay;
+  filter: blur(80px);
+  top: -153px;
+  left: -222px;
+  z-index: 2;
+  
 }
 
 .get-start__content {
   display: flex;
   flex-direction: column;
-  margin-left: 112px;
+  margin: 96px 112px;
   gap: 32px;
 }
 
 .get-start__image {
   position: absolute;
-  top: 43px;
+  top: 46px;
   right: -160px;
 }
