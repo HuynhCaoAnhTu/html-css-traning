@@ -104,6 +104,7 @@ menu,
 nav,
 section {
   display: block;
+
 }
 body {
   line-height: 1;
@@ -128,9 +129,11 @@ table {
   border-spacing: 0;
 }
 html {
-  width: 1440;
-  height: 6314px;
+  width: 1440px;
   margin: 0 auto;
+}
+body{
+  background-color: #EEEFF2;
 }
 a {
   text-decoration: none;
