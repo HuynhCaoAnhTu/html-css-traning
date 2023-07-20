@@ -44,7 +44,7 @@
 }
 
 .text--chip {
-  color: var(--color-secondary);
+  color: var(--color-light-blue);
   font-family: Inter-ExtraBold;
   font-size: var(--fs-tiny);
   font-weight: var(--fw-bold);
@@ -117,19 +117,12 @@
   line-height: var(--lh-small);
 }
 
-.text--body-md {
+.text--body {
   font-family: Inter-Medium;
   font-size: var(--fs-normal);
   font-weight: var(--fw-light);
   line-height: var(--lh-small);
   color: var( --color-grey);
-}
-
-.text--btn-lg {
-  font-family: Inter-Bold;
-  font-size: var(--fs-normal);
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-small);
 }
 
 .text--caption {
@@ -140,7 +133,7 @@
   line-height: var(--lh-small);
 }
 
-.text--comment-md {
+.text--comment {
   color:var(--color-black) ;
   font-family: Poppins-SemiBold;
   font-size:  var(--fs-m-big);
