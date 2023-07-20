@@ -38,3 +38,7 @@
   flex-direction: row;
   gap: 24px;
 }
+.testimonial-control__button{
+  border: none;
+  cursor: pointer;
+}
