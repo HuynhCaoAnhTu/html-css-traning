@@ -9,7 +9,8 @@
   row-gap: 67px;
   column-gap: 82px;
 }
-.values__item-title{
+
+.values__item-title {
   padding-bottom: 29px;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .values__content-item::before {
-  content:"";
+  content: "";
   position: absolute;
   bottom: 96px;
   left: 0;
@@ -34,7 +35,7 @@
 .values__content-img {
   width: fit-content;
 }
-.values__img-cover{
+
+.values__img-cover {
   min-height: 51px;
 }
-

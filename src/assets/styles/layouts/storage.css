@@ -1,31 +1,29 @@
-.storage{
+.storage {
   position: relative;
   margin: 177px 160px 100px;
   border-radius: 24px;
-  background:  #F7F7F8;
-  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.10);
-
+  background: #f7f7f8;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
 }
 
-.storage__content{
+.storage__content {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 144px 0 150px 80px;
 }
 
-.storage__text{
-
+.storage__text {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.storage-decs{
+.storage-decs {
   margin-top: 10px;
 }
 
-.storage_image{
+.storage_image {
   position: absolute;
   bottom: -20px;
   right: -160px;
