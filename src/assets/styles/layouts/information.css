@@ -30,6 +30,7 @@
 
 .schedule-button {
   border: 2px solid var(--color-white);
+  background: transparent;
   opacity: 0.75;
   color: var(--color-white);
 }
