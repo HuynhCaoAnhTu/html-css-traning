@@ -41,12 +41,6 @@
   left: -56px;
 }
 
-.features__content-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .features__share-files-image {
   position: absolute;
   top: 0px;
@@ -59,10 +53,8 @@
   right: 279px;
 }
 
-
 .features__collab-image {
   position: absolute;
   top: 2px;
   left: 62px;
 }
-
