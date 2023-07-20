@@ -1,50 +1,32 @@
+.btn--common {
+  padding: 14px 22px;
+  border-radius: 16px;
+  font-family: Inter-Bold;
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-small);
+  width: fit-content;
+}
+
 .btn--primary {
-  gap: 10px;
-  border-radius: 16px;
-  border: 2px solid transparent;
-  color: var(--color-grey);
-  width: fit-content;
-}
-
-.btn--secondary {
-  border-radius: 16px;
-  border: 2px solid var(--color-primary);
-  background: var(--color-primary);
-  color: var(--color-white);
-  width: fit-content;
-}
-
-.btn--primary-border {
-  border-radius: 16px;
   border: 2px solid var(--color-black);
   opacity: 0.75;
   color: #272e35;
-  width: fit-content;
 }
 
-.btn--primary-border-w {
-  border-radius: 16px;
-  border: 2px solid var(--color-white);
-  opacity: 0.75;
+.btn--secondary {
+  border: 2px solid var(--color-orange);
+  background: var(--color-orange);
   color: var(--color-white);
-  width: fit-content;
 }
 
-.btn--big {
-  padding: 14px 22px;
-}
-
-.btn--small {
-  padding: 12px 22px;
-}
-
-.btn--primary:hover{
-  border: 2px  solid var(--color-grey);
+.btn--primary:hover {
+  border: 2px solid var(--color-grey);
   transition: 0.3s;
   box-shadow: 0 3px #21212133;
 }
 
-.btn--secondary:hover{
+.btn--secondary:hover {
   border: 2px solid var(--color-grey);
   background-color: transparent;
   color: var(--color-grey);
@@ -52,18 +34,18 @@
   box-shadow: 0 3px #21212133;
 }
 
-.btn--primary-border:hover{
-  border: 2px solid var(--color-primary);
-  background: var(--color-primary);
+.btn--primary:hover {
+  border: 2px solid var(--color-orange);
+  background: var(--color-orange);
   color: var(--color-white);
   opacity: 1;
   transition: 0.3s;
   box-shadow: 0 3px #21212133;
 }
 
-.btn--primary-border-w:hover{
-  border: 2px solid var(--color-primary);
-  background: var(--color-primary);
+.btn--primary-w:hover {
+  border: 2px solid var(--color-orange);
+  background: var(--color-orange);
   color: var(--color-white);
   opacity: 1;
   transition: 0.3s;
