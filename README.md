@@ -64,3 +64,7 @@ npm i
 ```bash
 npm run dev
 ```
+
+- Step 05: Run on browser
+
+http://localhost:1234
