@@ -1,14 +1,14 @@
 .information {
-  margin: 198px 160px;
   position: relative;
+  margin: 198px 160px;
 }
 
 .infomration__container {
-  position: relative;
-  border-radius: 24px;
   display: flex;
   align-items: center;
   justify-content: end;
+  position: relative;
+  border-radius: 24px;
   background-image: url(/src/assets/images/information/infor_backround.png);
   z-index: 1;
 }
@@ -16,9 +16,9 @@
 .information__content {
   display: flex;
   flex-direction: column;
-  margin:168px 140px;
-  gap: 24px;
   align-items: flex-start;
+  gap: 24px;
+  margin:168px 140px;
 }
 
 .information-image {
@@ -45,8 +45,8 @@
 .information__detail {
   display: flex;
   margin: 0 8px;
-  width: 1104px;
-  height: 261px;
+  min-width: 1104px;
+  min-height: 261px;
   border-radius: 0px 0px 24px 24px;
   background: linear-gradient(135deg, #fea989 0%, #99b4db 100%);
   position: absolute;
@@ -56,20 +56,20 @@
 
 .information__detail-list {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  flex-direction: row;
   margin: 21px 88px 0;
 }
 
 .information__detail-item {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 240px;
-  position: relative;
   align-items: center;
+  position: relative;
+  gap: 16px;
+  min-width: 240px;
 }
 
 .information__detail-item:nth-child(2) {

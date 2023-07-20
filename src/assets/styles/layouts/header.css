@@ -1,10 +1,10 @@
 .header {
-  padding-top: 48px;
-  margin: 0 160px ;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 48px;
+  margin: 0 160px ;
 }
 
 .header__logo{

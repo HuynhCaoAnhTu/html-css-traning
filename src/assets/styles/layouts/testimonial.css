@@ -5,26 +5,26 @@
 .testimonial__content {
   display: flex;
   flex-direction: column;
-  gap: 80px;
   align-items: center;
   text-align: center;
+  gap: 80px;
 }
 
 .testimonial__comment-list {
   display: flex;
   flex-direction: row;
-  gap: 78px;
   align-self: flex-start;
+  gap: 78px;
   width: 100%;
 }
 
 .testimonial__comment-item {
-  text-align: center;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 31px;
   padding-left: 16px;
-  display: flex;
 }
 
 .testimonial__star-list {

@@ -1,12 +1,12 @@
 .values {
-  margin: 136px 160px;
+  margin: 135px 160px;
 }
 
 .values__content-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 72px;
+  row-gap: 67px;
   column-gap: 82px;
 }
 .values__item-title{

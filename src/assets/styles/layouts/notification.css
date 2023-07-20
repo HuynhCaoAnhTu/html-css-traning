@@ -1,10 +1,10 @@
 .notification {
-  margin: 68px 160px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   position: relative;
+  margin: 68px 160px;
 }
 
 .notification-image {
@@ -15,10 +15,10 @@
 }
 
 .notification__content {
-  margin: 153px 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin: 153px 0;
 }
 
 .notification__content-text {

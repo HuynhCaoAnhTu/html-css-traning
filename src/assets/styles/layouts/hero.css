@@ -1,9 +1,9 @@
  .hero {
-  margin: 186px 160px 0;
   display: flex;
   flex-direction: column;
   gap: 40px;
   position: relative;
+  margin: 186px 160px 0;
 }
 
 .hero__content-title {
