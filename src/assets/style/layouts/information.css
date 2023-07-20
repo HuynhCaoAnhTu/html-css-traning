@@ -28,6 +28,20 @@
   z-index: -2;
 }
 
+.schedule-button{
+  border: 2px solid var(--color-white);
+  opacity: 0.75;
+  color: var(--color-white);
+}
+
+.schedule-button:hover{
+  border: 2px solid var(--color-orange);
+  background: var(--color-orange);
+  color: var(--color-white);
+  transition: 0.3s;
+  box-shadow: 0 3px #21212133;
+}
+
 .information__detail {
   display: flex;
   margin: 0 8px;
