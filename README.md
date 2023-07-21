@@ -12,6 +12,7 @@ Landing page for a app organize your tasks, lists and reminders .
 ## Timeline
 
 Estimate: **9 days** (_July 07, 2023 - July 19, 2023_)
+Actual: **10 days**
 
 ## Team size
 
@@ -47,20 +48,30 @@ Estimate: **9 days** (_July 07, 2023 - July 19, 2023_)
 git clone https://github.com/HuynhCaoAnhTu/Practice_One/tree/practice-one
 ```
 
-- Step 02: Change to branch /practice-one:
+- Step 02: Go to folder Practice_One:
+
+```bash
+cd Pracitce_One
+```
+
+- Step 03: Change to branch /practice-one:
 
 ```bash
 git checkout practice-one
 ```
 
-- Step 03: Install dependencies project
+- Step 04: Install dependencies project
 
 ```bash
 npm i
 ```
 
-- Step 04: Run project
+- Step 05: Run project
 
 ```bash
 npm run dev
 ```
+
+- Step 06: Run on browser
+
+http://localhost:1234

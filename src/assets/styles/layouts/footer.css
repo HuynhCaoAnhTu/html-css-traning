@@ -1,0 +1,40 @@
+.footer{
+  margin: 0 160px;
+}
+
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(116, 143, 181, 0.3) ;
+}
+
+.footer-information{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 52px;
+}
+
+.footer-download{
+  display: flex;
+  gap: 10px;
+}
+
+.footer__list{
+  display: flex;
+  flex-direction: row;
+  gap: 49px;
+  margin-top: 160px;
+}
+
+.end-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.footer-social__list{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}

@@ -1,0 +1,36 @@
+.get-start {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 24px;
+  background: #2c353d;
+  margin: 136px 160px;
+ 
+}
+
+.get-start::after {
+  content: "";
+  position: absolute;
+  width: 497px;
+  height: 497px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #AE80DC , #8084DC);
+  mix-blend-mode: overlay;
+  filter: blur(80px);
+  top: -153px;
+  left: -222px;
+  z-index: 2;
+}
+
+.get-start__content {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding: 90px 112px;
+}
+
+.get-start__image {
+  position: absolute;
+  top: 46px;
+  right: -160px;
+}

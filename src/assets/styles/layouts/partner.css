@@ -1,0 +1,25 @@
+.partner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  margin: 138px 160px 0;
+}
+
+.partner__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.partner__item {
+  min-height: 64px;
+  min-width: 160px;
+}
+
+.partner__item-img {
+  width: 160px;
+  height: 64px;
+  opacity: 0.7;
+}
