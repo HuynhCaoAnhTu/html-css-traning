@@ -11,7 +11,7 @@
 .footer-information{
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 24px;
   margin-bottom: 52px;
 }
 

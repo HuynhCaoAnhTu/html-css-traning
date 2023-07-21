@@ -25,8 +25,8 @@
 .get-start__content {
   display: flex;
   flex-direction: column;
-  margin: 96px 112px;
-  gap: 32px;
+  gap: 33px;
+  padding: 90px 112px;
 }
 
 .get-start__image {
