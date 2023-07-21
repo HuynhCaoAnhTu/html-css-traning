@@ -19,6 +19,8 @@
   flex-direction: column;
   gap: 29px;
   margin: 153px 0;
+  max-width: 455px;
+  word-wrap: break-word;
 }
 
 .notification__content-text {

@@ -17,7 +17,9 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin: 210px 19px;
+  padding: 210px 19px;
+  max-width: 455px;
+  word-wrap: break-word;
 }
 
 .member__content-text {
