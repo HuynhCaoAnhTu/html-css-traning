@@ -21,4 +21,5 @@
 .partner__item-img {
   width: 160px;
   height: 64px;
+  opacity: 0.7;
 }
