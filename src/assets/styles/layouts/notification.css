@@ -7,21 +7,21 @@
   margin: 68px 160px;
 }
 
-.notification-image {
+.notification__image {
   position: absolute;
   top: -217px;
   left: 57px;
   z-index: -3;
 }
 
-.notification__content {
+.notification-content {
   display: flex;
   flex-direction: column;
   gap: 29px;
   margin: 153px 0;
 }
 
-.notification__content-text {
+.notification-content-text {
   display: flex;
   flex-direction: column;
   gap: 12px;

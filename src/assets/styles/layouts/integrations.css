@@ -6,26 +6,26 @@
   margin: 0 160px 86px;
 }
 
-.integrations__content {
+.integrations-content {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-bottom: 7px;
 }
 
-.integrations__logo {
+.integrations-logo {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.integrations__logo-list {
+.integrations-logo__list {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-.integrations__logo-item {
+.integrations-logo__item {
   display: flex;
   align-items: center;
   justify-content: center;

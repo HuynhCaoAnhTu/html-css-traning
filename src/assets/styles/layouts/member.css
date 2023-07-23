@@ -7,20 +7,20 @@
   position: relative;
 }
 
-.member-image {
+.member__image {
   position: absolute;
   top: -42px;
   right: 308px;
 }
 
-.member__content {
+.member-content {
   display: flex;
   flex-direction: column;
   gap: 32px;
   margin: 210px 19px;
 }
 
-.member__content-text {
+.member-content-text {
   display: flex;
   flex-direction: column;
   gap: 12px;

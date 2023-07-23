@@ -22,7 +22,7 @@
   z-index: 2;
 }
 
-.get-start__content {
+.get-start-content {
   display: flex;
   flex-direction: column;
   gap: 33px;
