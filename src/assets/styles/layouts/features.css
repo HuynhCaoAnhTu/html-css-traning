@@ -9,14 +9,6 @@
   margin: 0 auto;
 }
 
-.features-title {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 0 auto;
-  gap: 16px;
-}
-
 .features-stay-focus__image {
   position: absolute;
   top: 2px;
