@@ -40,6 +40,10 @@ Actual: **10 days**
 * Nodejs v18.16.1
 * npm 9.5.1
 
+## Deploy
+
+* Vercel: https://practice-one-68l3-git-practice-one-huynhcaoanhtu.vercel.app/
+
 ## Getting started:
 
 - Step 01: Clone repository with HTTPS:
