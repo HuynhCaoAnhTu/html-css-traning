@@ -10,6 +10,7 @@
   position: relative;
   border-radius: 24px;
   background-image: url(/src/assets/images/information/infor_backround.png);
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
@@ -18,7 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 22px;
-  margin:168px 140px;
+  padding: 168px 140px;
 }
 
 .information__image {
@@ -29,14 +30,14 @@
 }
 
 .schedule-button {
-  border: 3px solid var(--color-white);
+  border: 2px solid var(--color-white);
   background: transparent;
   opacity: 0.75;
   color: var(--color-white);
 }
 
-.schedule-button:hover{
-  border: 3px solid var(--color-orange);
+.schedule-button:hover {
+  border: 2px solid var(--color-orange);
   background: var(--color-orange);
   color: var(--color-white);
   transition: 0.3s;

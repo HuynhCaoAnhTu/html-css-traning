@@ -31,12 +31,12 @@
 }
 
 .login-button {
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   color: var(--color-grey);
 }
 
 .login-button:hover {
-  border: 3px solid var(--color-grey);
+  border: 2px solid var(--color-grey);
   transition: 0.3s;
   box-shadow: 0 3px #21212133;
 }

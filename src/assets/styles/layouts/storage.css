@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-width: 455px;
+  word-wrap: break-word;
 }
 
 .storage-decs {
