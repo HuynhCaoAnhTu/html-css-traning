@@ -53,13 +53,13 @@
   margin-top: 8px;
 }
 
-.productivity__content-item-text {
+.productivity-content-item__text {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.productivity__content-item-desc {
+.productivity-content-item-desc {
   display: flex;
   flex-direction: column;
 }
