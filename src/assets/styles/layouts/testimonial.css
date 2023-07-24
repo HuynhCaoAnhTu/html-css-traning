@@ -1,16 +1,13 @@
-.testimonial {
-  margin: 138px 160px 136px;
-}
-
-.testimonial__content {
+.testimonial-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 80px;
+  margin: 138px 160px 136px;
 }
 
-.testimonial__comment-list {
+.testimonial-comment__list {
   display: flex;
   flex-direction: row;
   align-self: flex-start;
@@ -18,7 +15,7 @@
   width: 100%;
 }
 
-.testimonial__comment-item {
+.testimonial-comment__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +24,7 @@
   padding-left: 16px;
 }
 
-.testimonial__star-list {
+.testimonial-star__list {
   display: flex;
   flex-direction: row;
   gap: 16px;

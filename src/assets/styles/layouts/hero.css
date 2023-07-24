@@ -15,7 +15,7 @@
   margin: 24px 0 20px 0;
 }
 
-.hero__content-button {
+.hero-content-button {
   display: flex;
   flex-direction: row;
   gap: 24px;

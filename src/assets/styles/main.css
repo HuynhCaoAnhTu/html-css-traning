@@ -1,9 +1,10 @@
-@import url(./abstracts/variables.css);
 @import url(./base/reset.css);
+@import url(./abstracts/variables.css);
 @import url(./base/typography.css);
 
 @import url(./components/button.css);
 @import url(./components/feature-content.css);
+@import url(./components/content-text.css);
 /* layout */
 @import url(./layouts/header.css);
 @import url(./layouts/hero.css);

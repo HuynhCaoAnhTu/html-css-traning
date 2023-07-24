@@ -7,25 +7,25 @@
   margin: 0 160px;
 }
 
-.header__logo {
+.header-logo {
   min-width: 137px;
   min-height: 48px;
 }
 
-.header__content {
+.header-content {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.header__nav-list {
+.header-nav__list {
   display: flex;
   flex-direction: row;
   margin-left: 55px;
   gap: 49px;
 }
 
-.header__button {
+.header-button {
   display: flex;
   gap: 8px;
 }

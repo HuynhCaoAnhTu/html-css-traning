@@ -1,0 +1,12 @@
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}

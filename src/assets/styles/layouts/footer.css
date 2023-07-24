@@ -2,7 +2,7 @@
   margin: 0 160px;
 }
 
-.footer__content{
+.footer-content{
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid rgba(116, 143, 181, 0.3) ;

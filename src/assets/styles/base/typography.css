@@ -1,7 +1,6 @@
 @font-face {
   font-family: Inter;
-  src: url(/src/assets/fonts/Inter/Inter-Light.woff) format("woff"),
-    url(/src/assets/fonts/Inter/Inter-Light.woff2) format("woff2");
+  src: url(/src/assets/fonts/Inter/Inter-Light.woff2) format("woff2");
 
   font-family: Inter-ExtraBold;
   src: url(/src/assets/fonts/Inter/Inter-ExtraBold.woff2) format("woff2");
@@ -9,26 +8,27 @@
 
 @font-face {
   font-family: Inter-SemiBold;
-  src: url(/src/assets/fonts/Inter/Inter-SemiBold.woff) format("woff"),
-    url(/src/assets/fonts/Inter/Inter-SemiBold.woff) format("woff2");
+  src: url(/src/assets/fonts/Inter/Inter-SemiBold.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Inter-Bold;
-  src: url(/src/assets/fonts/Inter/Inter-Bold.woff) format("woff");
+  src: url(/src/assets/fonts/Inter/Inter-Bold.woff2) format("woff2");
 }
+
 @font-face {
   font-family: Inter-Regular;
-  src: url(/src/assets/fonts/Inter/Inter-Regular.woff) format("woff");
+  src: url(/src/assets/fonts/Inter/Inter-Regular.woff2) format("woff2");
 }
+
 @font-face {
   font-family: Inter-Medium;
-  src: url(/src/assets/fonts/Inter/Inter-Medium.woff) format("woff");
+  src: url(/src/assets/fonts/Inter/Inter-Medium.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url(/src/assets/fonts/Poppins/Poppins-SemiBold.woff) format("woff");
+  src: url(/src/assets/fonts/Poppins/Poppins-SemiBold.woff) format("woff2");
 }
 
 /* ------------------
@@ -36,7 +36,7 @@
 ------------------ */
 
 .text--menu {
-  color: var( --color-grey);
+  color: var(--color-grey);
   font-family: Inter-SemiBold;
   font-size: var(--fs-normal);
   font-weight: var(--fw-normal);
@@ -62,7 +62,7 @@
 }
 
 .text--sup-bg {
-  color: var( --color-black);
+  color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-huge);
   font-weight: var(--fw-normal);
@@ -70,7 +70,7 @@
 }
 
 .text--sub-headline {
-  color: var( --color-grey);
+  color: var(--color-grey);
   font-family: Inter-Regular;
   font-size: var(--fs-x-big);
   font-weight: var(--fw-tiny);
@@ -82,11 +82,11 @@
   font-size: var(--fs-normal);
   font-weight: var(--fw-light);
   line-height: var(--lh-small);
-  color: var( --color-grey);
+  color: var(--color-grey);
 }
 
 .text--headline-bg {
-  color: var( --color-black-white);
+  color: var(--color-black-white);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-large);
   font-weight: var(--fw-normal);
@@ -94,7 +94,7 @@
 }
 
 .text--headline-md {
-  color: var( --color-black);
+  color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-xx-big);
   font-weight: var(--fw-normal);
@@ -102,7 +102,7 @@
 }
 
 .text--headline-sm {
-  color: var( --color-black);
+  color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-x-big);
   font-weight: var(--fw-normal);
@@ -110,7 +110,7 @@
 }
 
 .text--headline-tiny {
-  color: var( --color-black);
+  color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-big);
   font-weight: var(--fw-normal);
@@ -122,11 +122,11 @@
   font-size: var(--fs-normal);
   font-weight: var(--fw-light);
   line-height: var(--lh-small);
-  color: var( --color-grey);
+  color: var(--color-grey);
 }
 
 .text--caption {
-  color: var( --color-grey);
+  color: var(--color-grey);
   font-family: Inter-SemiBold;
   font-size: var(--fs-small);
   font-weight: var(--fw-normal);
@@ -134,9 +134,9 @@
 }
 
 .text--comment {
-  color:var(--color-black) ;
+  color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size:  var(--fs-m-big);
+  font-size: var(--fs-m-big);
   font-weight: var(--fw-normal);
   line-height: var(--lh-normal);
 }
@@ -149,6 +149,11 @@
   color: var(--color-white);
 }
 
-.text--grey{
+.text--grey {
   color: var(--color-grey);
+}
+
+.text--menu:hover {
+  color: var(--color-black);
+  text-decoration: underline;
 }
