@@ -20,12 +20,6 @@
   margin: 210px 19px;
 }
 
-.member-content-text {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
 .member-desc {
   margin-top: 12px;
 }

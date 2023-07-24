@@ -6,13 +6,6 @@
   margin: 0 160px 86px;
 }
 
-.integrations-content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 7px;
-}
-
 .integrations-logo {
   display: flex;
   align-items: center;

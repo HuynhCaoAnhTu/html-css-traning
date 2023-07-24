@@ -24,12 +24,6 @@
   margin: 0 0 99px 132px;
 }
 
-.productivity-content-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .productivity-content__list {
   display: flex;
   flex-direction: column;
