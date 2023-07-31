@@ -5,9 +5,10 @@
 @import url(./abstracts/variables.css);
 
 @import url(./components/button.css);
-
+@import url(./components/price-card.css);
 /* layout */
 @import url(./layouts/header.css);
+@import url(./layouts/prices.css);
 
 
 
