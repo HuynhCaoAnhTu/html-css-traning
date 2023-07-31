@@ -1,5 +1,6 @@
 .btn--common {
   padding: 14px 22px;
+  margin: 32px 0;
   border-radius: 16px;
   font-family: Inter-Bold;
   font-size: var(--fs-normal);
