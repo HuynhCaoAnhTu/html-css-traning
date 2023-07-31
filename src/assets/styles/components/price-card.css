@@ -1,0 +1,71 @@
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  background: #f7f7f8;
+  margin: 16px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.pricing-card-type {
+  color: var(--color-black);
+  font-family: Poppins-SemiBold;
+  font-size: var(--fs-m-big);
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-normal);
+}
+
+.pricing-card-price {
+}
+
+.currency {
+  color: var(--color-black);
+  font-family: Poppins-SemiBold;
+  font-size: var(--fs-m-big);
+  font-weight: var(--fw-normal);
+  line-height: 30px;
+  vertical-align: top;
+}
+
+.amount {
+  color: var(--color-black);
+  font-family: Poppins-SemiBold;
+  font-size: var(--fs-xx-large);
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-big);
+}
+
+.per-month {
+}
+
+.pricing-card-desc {
+  position: relative;
+  max-width: 200px;
+  margin-top: 62px;
+}
+
+.pricing-card-desc::before {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 2px;
+  top: -32px;
+  right: -40px;
+  background: var( --color-light-blue);
+  opacity: 0.1;
+}
+.pricing-features {
+}
+
+.pricing-feature__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+}
+.pricing-feature__item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
