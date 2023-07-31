@@ -1,0 +1,35 @@
+:root {
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-xl: 1200px;
+  --screen-xxl: 1440px;
+  /* color variable */
+  --color-grey: #6e757c;
+   --color-orange: #ff6e30;
+  --color-light-blue: #748fb5;
+  --color-black: #272e35;
+  --color-white: #fff;
+ /* font-size variable */
+  --fs-tiny:  0.75rem;
+  --fs-small: 0.8125rem;
+  --fs-normal: 1rem;
+  --fs-big: 1.125rem;
+  --fs-x-big: 1.25rem;
+  --fs-m-big: 1.5rem;
+  --fs-xx-big: 2rem;
+  --fs-large: 3rem;
+  --fs-huge: 4.5rem;
+/* font-weight variable */
+  --fw-tiny: 400;
+  --fw-light: 500;
+  --fw-normal:600;
+  --fw-medium: 700;
+  --fw-bold: 900;
+/* line-high variable */
+  --lh-tiny:1rem;
+  --lh-small:1.5rem;
+  --lh-normal:2rem;
+  --lh-medium:2.5rem ;
+  --lh-big: 3.5rem;
+  --lh-large: 5rem;
+}
