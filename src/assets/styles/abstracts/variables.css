@@ -10,14 +10,17 @@
   --color-black: #272e35;
   --color-white: #fff;
  /* font-size variable */
-  --fs-tiny:  0.75rem;
+  --fs-tiny:  0.6875rem;
   --fs-small: 0.8125rem;
   --fs-normal: 1rem;
   --fs-big: 1.125rem;
   --fs-x-big: 1.25rem;
   --fs-m-big: 1.5rem;
-  --fs-xx-big: 2rem;
+  --fs-xx-big: 2rem; 
+  --fs-xxx-big: 2.5rem;
   --fs-large: 3rem;
+  --fs-x-large: 3.75rem;
+  --fs-xx-large: 4rem;
   --fs-huge: 4.5rem;
 /* font-weight variable */
   --fw-tiny: 400;
@@ -29,7 +32,7 @@
   --lh-tiny:1rem;
   --lh-small:1.5rem;
   --lh-normal:2rem;
-  --lh-medium:2.5rem ;
-  --lh-big: 3.5rem;
+  --lh-medium:3rem ;
+  --lh-big: 4rem;
   --lh-large: 5rem;
 }
