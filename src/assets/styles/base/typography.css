@@ -93,10 +93,10 @@
   line-height: var(--lh-big);
 }
 
-.text--headline-md {
+.text--headline {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size: var(--fs-xx-big);
+  font-size: var(--fs-xxx-big);
   font-weight: var(--fw-normal);
   line-height: var(--lh-medium);
 }
