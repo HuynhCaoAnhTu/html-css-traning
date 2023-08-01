@@ -12,39 +12,18 @@
   margin: 40px 16px 0;
 }
 
-.popular {
-  padding: 8px 16px;
-  border-radius: 100px;
-  background: var(--color-light-blue);
-  color: var(--color-white);
-  width: fit-content;
-  margin-bottom: 20px;
-  font-family: Inter-ExtraBold;
-  font-size: var(--fs-tiny);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-tiny);
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
-}
-
 .business-img {
   width: fit-content;
   margin: 10px 0 49px 0;
-}
-.pricing-feature-toggle {
-  cursor: pointer;
-}
-.feature-hidden{
-  display: none;
 }
 
 .feature-toggle-text {
   margin-right: 12px;
   color: var(--color-black);
   font-family: Inter-Bold;
-  font-size: var(--fs-normal);
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-small);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
 .icon-play {
   font-size: 13px;
@@ -52,139 +31,41 @@
   margin-left: 4px;
 }
 @media screen and (min-width: 992px) {
-  .prices-title{
+  .prices-title {
     margin-top: 56px;
   }
-  .prices-title
-  .text--headline-bg{
-    font-size: var(--fs-large);
-    font-weight: var(--fw-medium);
-    line-height: var(--lh-big);
+
+  .prices-title .text--headline-bg {
+    font-size: var(--fs-3x);
+    font-weight: 600;
+    line-height: 3.5rem;
   }
 
   .pricing-card-container {
-    grid-template-columns: 1fr 1.22fr 1fr;
+    grid-template-columns: 1fr 1.1fr 1fr;
     margin: 56px 64px 0;
   }
-  .card{
-    margin-bottom: 0;
-  }
-  .pricing-feature-toggle{
-    display: none;
-  }
-  .feature-hidden{
-    display: block;
-  }
-  .feature-title{
-    padding: 70px 0 40px 24px;
-    display: grid;
-    grid-template-rows: minmax(32px, auto) auto;
-    row-gap: 30px;
-    border-bottom: 2px solid #eaecf1;
-  }
-  .pricing-card-container .card:nth-child(1) {
-    border-radius: 24px 0 0 24px;
-    margin-top: 32px;
-    background: var(--color-light-background, #f7f7f8);
-  }
-  .pricing-card-container .card:nth-child(3) {
-    border-radius: 0 24px 24px 0;
-    margin-top: 32px;
-    background: var(--color-light-background, #f7f7f8);
-  }
-  .pricing-card-container .card:nth-child(2) {
-    background: var(--color-light-background, #f7f7f8);
-    position: relative;
-    border-radius: 24px 24px 0 0;
-    
-  }
-  .pricing-card-container 
-  .card:nth-child(1) 
-  .pricing-card,
-  .pricing-card-container 
-  .card:nth-child(3) 
-  .pricing-card{
-    
-    border-bottom: 2px solid #eaecf1;
-    padding: 40px 0 8px 24px;
-  }
-  
-  .pricing-card-container 
-  .card:nth-child(2) 
-  .pricing-card{
-    background-color: #fff;
-    padding: 8px 8px 48px 24px;
-    border-radius: 24px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
-    position: relative;
-    z-index: 2;
-  }
-
-  .pricing-card-container 
-  .card:nth-child(2) 
-  .pricing-features{
-    background: var(--color-light-background, #fff);
-    border-radius: 0 0 24px 24px;
-    position: absolute;
-    bottom: 56px;
-    width: 100%;
-    z-index: 1;
-  }
-  .pricing-card-container 
-  .pricing-card:nth-child(2)
-  .pricing-card-price {
-    margin: 24px 0 62px 0;
-    
-  }
-  .popular {
-    align-self: flex-end;
-    margin-bottom: 32px;
-  }
-  
 }
 
 @media screen and (min-width: 1200px) {
-  .prices-title{
+  .prices-title {
     margin-top: 72px;
   }
 
-  .prices-title
-  .text--headline-bg{
-    font-size: var(--fs-x-huge);
-    font-weight: var(--fw-medium);
-    line-height: var(--lh-large);
+  .prices-title .text--headline-bg {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5rem;
   }
+
   .pricing-card-container {
     margin: 72px 112px 0;
-
   }
 }
 
 @media screen and (min-width: 1440px) {
   .pricing-card-container {
     margin: 72px 0 0;
+    grid-template-columns: 1fr 1.04fr 1fr;
   }
-.pricing-card-container 
-.card:nth-child(2) 
-.pricing-card {
-  padding: 8px 8px 48px 40px;
-}
-.pricing-card-container 
-.card:nth-child(1)
-.pricing-card,
-.pricing-card-container 
-.card:nth-child(3)
-.pricing-card {
-  padding: 40px 0px 16px 40px;
-}
-.feature-title{
-  padding-left: 40px;
-}
-.pricing-feature__list{
-  padding-left: 40px;
-}
-.pricing-card-desc::before{
-  width: 288px;
-  right: -90px;
-}
 }
