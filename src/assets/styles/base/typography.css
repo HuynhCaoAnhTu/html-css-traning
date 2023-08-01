@@ -85,7 +85,7 @@
   color: var(--color-grey);
 }
 
-.text--headline-bg {
+.text--headline {
   color: var(--color-black-white);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-large);
@@ -93,7 +93,7 @@
   line-height: var(--lh-big);
 }
 
-.text--headline {
+.text--headline-bg {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-xxx-big);
@@ -101,7 +101,7 @@
   line-height: var(--lh-medium);
 }
 
-.text--headline-sm {
+.text--headline-md {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-x-big);

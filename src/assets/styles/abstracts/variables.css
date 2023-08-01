@@ -22,6 +22,7 @@
   --fs-x-large: 3.75rem;
   --fs-xx-large: 4rem;
   --fs-huge: 4.5rem;
+  --fs-x-huge: 5rem;
 /* font-weight variable */
   --fw-tiny: 400;
   --fw-light: 500;
@@ -33,6 +34,6 @@
   --lh-small:1.5rem;
   --lh-normal:2rem;
   --lh-medium:3rem ;
-  --lh-big: 4rem;
+  --lh-big: 3.5rem;
   --lh-large: 5rem;
 }

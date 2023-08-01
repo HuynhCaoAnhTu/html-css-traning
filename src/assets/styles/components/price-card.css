@@ -1,22 +1,20 @@
+.card {
+  background: #f7f7f8;
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
 .pricing-card {
   display: flex;
   flex-direction: column;
-  border-radius: 24px;
-  background: #f7f7f8;
-  margin: 16px;
-  padding: 24px;
-  margin-bottom: 32px;
+  padding: 24px 0 24px 24px;
 }
 
-.pricing-card-type {
-  color: var(--color-black);
-  font-family: Poppins-SemiBold;
-  font-size: var(--fs-m-big);
-  font-weight: var(--fw-normal);
-  line-height: var(--lh-normal);
+.feature-title {
+  display: none;
 }
 
 .pricing-card-price {
+  margin: 24px 0 62px 0;
 }
 
 .currency {
@@ -42,7 +40,6 @@
 .pricing-card-desc {
   position: relative;
   max-width: 200px;
-  margin-top: 62px;
 }
 
 .pricing-card-desc::before {
@@ -52,20 +49,34 @@
   height: 2px;
   top: -32px;
   right: -40px;
-  background: var( --color-light-blue);
+  background: var(--color-light-blue);
   opacity: 0.1;
 }
 .pricing-features {
 }
-
+.feature-type{
+  color: var(--color-grey);
+  font-family: Poppins-SemiBold;
+  font-size: var(--fs-x-big);
+  font-weight: var(--fw-normal);
+  line-height: var( --lh-small);
+}
 .pricing-feature__list {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-top: 32px;
+  padding: 32px 0 24px 24px;
 }
 .pricing-feature__item {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
+.pricing-card-button {
+  margin: 32px 0;
+}
+.feature-type{
+  grid-row-start: 2;
+  grid-row-end: 3; 
+}
+
