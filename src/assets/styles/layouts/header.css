@@ -1,36 +1,35 @@
 .header {
-  padding-top: 3rem;
-  margin: 0 2rem;
+  padding-top: calc(48 / 16 * 1rem);
+  margin: 0 calc(32 / 16 * 1rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header-nav__list {
   display: none;
 }
+
 .header-button {
   display: none;
 }
 
 @media (min-width: 992px) {
   .header {
-    margin: 0 4rem;
-  }
-  .header-logo {
-    width: 8.625rem;
-    height: 2.8125rem;
+    margin: 0 calc(64 / 16 * 1rem);
   }
 }
 
 @media (min-width: 1200px) {
   .header {
     flex-direction: row;
-    margin: 0 7rem;
+    margin: 0 calc(112 / 16 * 1rem);
   }
 
   .menu {
     display: none;
   }
+
   .header-content {
     display: flex;
     flex-direction: row;
@@ -40,8 +39,8 @@
   .header-nav__list {
     display: flex;
     flex-direction: row;
-    margin-left: 3.4375rem;
-    gap: 3.0625rem;
+    margin-left: calc(55 / 16 * 1rem);
+    gap: calc(49 / 16 * 1rem);
   }
 
   .item--active {
@@ -50,16 +49,16 @@
 
   .header-button {
     display: flex;
-    gap: 0.5rem;
+    gap: calc(8 / 16 * 1rem);
   }
 
   .btn-login {
-    border: 0.125rem solid transparent;
+    border: calc(2 / 16 * 1rem) solid transparent;
     color: var(--color-grey);
   }
 
   .btn-login:hover {
-    border: 0.125rem solid var(--color-grey);
+    border: calc(2 / 16 * 1rem) solid var(--color-grey);
     transition: 0.3s;
     box-shadow: 0 3px #21212133;
   }

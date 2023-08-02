@@ -2,38 +2,58 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  padding: 0 15px;
-  gap: 24px;
+  padding: 0 calc(15 / 16 * 1rem);
+  gap: calc(24 / 16 * 1rem);
 }
+
 .footer__desc {
+  color: var(--color-grey);
+  font-family: Inter-Medium;
+  font-size: calc(16 / 16 * 1rem);
+  font-weight: 500;
+  line-height: calc(24 / 16 * 1rem);
+
   max-width: 66.18%;
   text-align: center;
 }
+
 .footer-nav__list {
   display: none;
 }
+
 .footer-download {
-  padding-bottom: 24px;
+  display: flex;
+  padding-bottom: calc(24 / 16 * 1rem);
 }
+
 .end-footer {
-  margin: 0 15px;
-  padding: 24px 0 24px;
+  margin: 0 calc(15 / 16 * 1rem);
+  padding: calc(24 / 16 * 1rem) 0 calc(24 / 16 * 1rem);
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  gap: 24px;
-  border-top: 2px solid #dce0e9;
+  gap: calc(24 / 16 * 1rem);
+  border-top: calc(2 / 16 * 1rem) solid #dce0e9;
 }
+
 .footer-social__list {
   display: flex;
-  gap: 12px;
+  gap: calc(12 / 16 * 1rem);
+}
+
+.auther-text {
+  color: var(--color-grey);
+  font-family: Inter-SemiBold;
+  font-size: calc(13 / 16 * 1rem);
+  font-weight: 600;
+  line-height: calc(24 / 16 * 1rem);
 }
 
 @media screen and (min-width: 992px) {
   .footer-information {
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 52px;
-    padding: 0 64px;
+    margin-bottom: calc(52 / 16 * 1rem);
+    padding: 0 calc(64 / 16 * 1rem);
     justify-items: start;
   }
 
@@ -41,10 +61,11 @@
     grid-row: 1 / span 1;
   }
   .footer__desc {
-    max-width: 345px;
+    max-width: calc(345 / 16 * 1rem);
     grid-row: 2 / span 1;
     text-align: left;
   }
+
   .footer-download {
     grid-row: 1 / span 2;
     justify-self: end;
@@ -53,14 +74,14 @@
   .end-footer {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
-    margin: 0 64px;
+    padding: calc(24 / 16 * 1rem) 0;
+    margin: 0 calc(64 / 16 * 1rem);
   }
 
   .footer-social__list {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: calc(24 / 16 * 1rem);
   }
 }
 
@@ -68,18 +89,21 @@
   .footer-information {
     padding: 0;
   }
+
   .footer-download {
     grid-row: 3 / span 1;
     justify-self: start;
   }
+
   .footer-nav__list {
     display: flex;
-    gap: 48px;
+    gap: calc(48 / 16 * 1rem);
     grid-row: 3 / span 1;
-    margin-top: 16px;
+    margin-top: calc(16 / 16 * 1rem);
   }
+
   .end-footer {
-    padding: 24px 0;
+    padding: calc(24 / 16 * 1rem) 0;
     margin: 0 auto;
   }
 }
