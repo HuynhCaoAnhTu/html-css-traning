@@ -6,9 +6,13 @@
 
 @import url(./components/button.css);
 @import url(./components/price-card.css);
+
+
 /* layout */
 @import url(./layouts/header.css);
 @import url(./layouts/prices.css);
+@import url(./layouts/questions.css);
+@import url(./layouts/footer.css);
 
 
 

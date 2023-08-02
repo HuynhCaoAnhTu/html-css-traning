@@ -113,6 +113,7 @@
 @media screen and (min-width: 992px) {
   .card {
     background: var(--color-light-background, #f7f7f8);
+    margin-bottom: 0;
   }
 
   .pricing-feature-toggle {
