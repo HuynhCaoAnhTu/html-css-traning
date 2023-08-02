@@ -1,0 +1,71 @@
+.prices-title {
+  margin: 32 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.pricing-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 40px 16px 0;
+}
+
+.business-img {
+  width: fit-content;
+  margin: 10px 0 49px 0;
+}
+
+.feature-toggle-text {
+  margin-right: 12px;
+  color: var(--color-black);
+  font-family: Inter-Bold;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.icon-play {
+  font-size: 13px;
+  margin-right: 9px;
+  margin-left: 4px;
+}
+@media screen and (min-width: 992px) {
+  .prices-title {
+    margin-top: 56px;
+  }
+
+  .prices-title .text--headline-bg {
+    font-size: var(--fs-3x);
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
+
+  .pricing-card-container {
+    grid-template-columns: 1fr 1.1fr 1fr;
+    margin: 56px 64px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .prices-title {
+    margin-top: 72px;
+  }
+
+  .prices-title .text--headline-bg {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5rem;
+  }
+
+  .pricing-card-container {
+    margin: 72px 112px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pricing-card-container {
+    margin: 72px 0 0;
+    grid-template-columns: 1fr 1.04fr 1fr;
+  }
+}

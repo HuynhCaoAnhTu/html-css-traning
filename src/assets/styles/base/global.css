@@ -1,9 +1,10 @@
 html {
   font-size: 16px;
+  background: #eeeff2;
 }
-@media (width > 1440px) {
-  .container{
-   width: 1120px;
-   margin: 0 auto !important;
+@media (min-width: 1440px) {
+  .container {
+    width: 1120px;
+    margin: 0 auto !important;
   }
 }

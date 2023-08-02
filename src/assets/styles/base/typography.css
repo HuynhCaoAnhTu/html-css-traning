@@ -85,7 +85,7 @@
   color: var(--color-grey);
 }
 
-.text--headline-bg {
+.text--headline {
   color: var(--color-black-white);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-large);
@@ -93,15 +93,15 @@
   line-height: var(--lh-big);
 }
 
-.text--headline-md {
+.text--headline-bg {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size: var(--fs-xx-big);
+  font-size: var(--fs-xxx-big);
   font-weight: var(--fw-normal);
   line-height: var(--lh-medium);
 }
 
-.text--headline-sm {
+.text--headline-md {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
   font-size: var(--fs-x-big);
