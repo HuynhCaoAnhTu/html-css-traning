@@ -1,71 +1,73 @@
 .prices-title {
-  margin: 32 40px 0;
+  margin: calc(32 / 16 * 1rem) calc(40 / 16 * 1rem) 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: calc(16 / 16 * 1rem);
   text-align: center;
 }
 
 .pricing-card-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 40px 16px 0;
+  margin: calc(40 / 16 * 1rem) calc(16 / 16 * 1rem) 0;
 }
 
 .business-img {
   width: fit-content;
-  margin: 10px 0 49px 0;
+  margin: calc(10 / 16 * 1rem) 0 calc(49 / 16 * 1rem) 0;
 }
 
 .feature-toggle-text {
-  margin-right: 12px;
+  margin-right: calc(12 / 16 * 1rem);
   color: var(--color-black);
   font-family: Inter-Bold;
-  font-size: 1rem;
+  font-size: calc(16 / 16 * 1rem);
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: calc(24 / 16 * 1rem);
 }
+
 .icon-play {
-  font-size: 13px;
-  margin-right: 9px;
-  margin-left: 4px;
+  font-size: calc(13 / 16 * 1rem);
+  margin-right: calc(9 / 16 * 1rem);
+  margin-left: calc(4 / 16 * 1rem);
 }
+
 @media screen and (min-width: 992px) {
   .prices-title {
-    margin-top: 56px;
+    margin-top: calc(56 / 16 * 1rem);
   }
 
   .prices-title .text--headline-bg {
-    font-size: var(--fs-3x);
+    font-size: calc(48 / 16 * 1rem);
     font-weight: 600;
-    line-height: 3.5rem;
+    line-height: calc(56 / 16 * 1rem);
   }
 
   .pricing-card-container {
     grid-template-columns: 1fr 1.1fr 1fr;
-    margin: 56px 64px 0;
+    margin: calc(56 / 16 * 1rem) calc(64 / 16 * 1rem) 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .prices-title {
-    margin-top: 72px;
+    margin-top: calc(72 / 16 * 1rem);
   }
 
   .prices-title .text--headline-bg {
-    font-size: 5rem;
+    font-size: calc(80 / 16 * 1rem);
     font-weight: 600;
-    line-height: 5rem;
+    line-height: calc(80 / 16 * 1rem);
   }
 
   .pricing-card-container {
-    margin: 72px 112px 0;
+    margin: calc(72 / 16 * 1rem) calc(112 / 16 * 1rem) 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .pricing-card-container {
-    margin: 72px 0 0;
+    margin: calc(72 / 16 * 1rem) 0 0;
     grid-template-columns: 1fr 1.04fr 1fr;
   }
 }
