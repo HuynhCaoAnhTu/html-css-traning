@@ -90,14 +90,14 @@
   line-height: calc(24 / 16 * 1rem);
 }
 
-.pricing-feature__list {
+.pricing-feature-list {
   display: flex;
   flex-direction: column;
   gap: calc(32 / 16 * 1rem);
   padding: calc(8 / 16 * 1rem) 0 calc(24 / 16 * 1rem) calc(24 / 16 * 1rem);
 }
 
-.pricing-feature__item {
+.pricing-feature-item {
   display: flex;
   flex-direction: row;
   gap: calc(12 / 16 * 1rem);
@@ -183,7 +183,7 @@
     margin-bottom: calc(32 / 16 * 1rem);
   }
 
-  .pricing-feature__list {
+  .pricing-feature-list {
     padding-top: calc(40 / 16 * 1rem);
     padding-bottom: calc(101 / 16 * 1rem);
   }
@@ -204,7 +204,7 @@
     padding-left: calc(40 / 16 * 1rem);
   }
 
-  .pricing-feature__list {
+  .pricing-feature-list {
     padding-left: calc(40 / 16 * 1rem);
   }
 
