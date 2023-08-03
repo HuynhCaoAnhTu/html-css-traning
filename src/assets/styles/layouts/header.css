@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.header-logo {
+  min-width: calc(115 / 16 * 1rem);
+  min-height: calc(40 / 16 * 1rem);
+}
+
 .header-nav-list {
   display: none;
 }
@@ -121,6 +126,10 @@
 @media (min-width: 992px) {
   .header {
     margin: 0 calc(64 / 16 * 1rem);
+  }
+  .header-logo {
+    min-width: calc(137 / 16 * 1rem);
+    min-height: calc(48 / 16 * 1rem);
   }
 }
 

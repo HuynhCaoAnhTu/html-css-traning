@@ -13,10 +13,12 @@
 .feature-title {
   display: none;
 }
-.price-type{
+
+.price-type {
   position: relative;
 }
-.price-type::after{
+
+.price-type::after {
   content: "";
   position: absolute;
   width: calc(240 / 319 * 100%);
@@ -110,6 +112,14 @@
 .feature-type {
   grid-row-start: 2;
   grid-row-end: 3;
+}
+.check-icon{
+  width: fit-content;
+  height: fit-content;
+}
+.cover-check-icon {
+  min-width: calc(24 / 16 * 1rem);
+  max-height: calc(24 / 16 * 1rem);
 }
 
 @media screen and (min-width: 992px) {
