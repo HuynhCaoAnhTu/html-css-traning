@@ -47,8 +47,8 @@
   color: var(--color-orange);
 }
 
-.nav-link-mobile{
-  font-size: calc(20 / 16 * 1rem);;
+.nav-link-mobile {
+  font-size: calc(20 / 16 * 1rem);
 }
 
 .menu-list > .header-button {
@@ -86,6 +86,7 @@
   border-radius: calc(10 / 16 * 1rem);
   background: #0e2431;
 }
+
 .line1 {
   transition: transform 0.2s ease-in-out;
 }
@@ -94,6 +95,7 @@
   top: calc(12 / 16 * 1rem);
   transition: transform 0.2s ease-in-out;
 }
+
 .checkbox:checked ~ .menu-content {
   display: block;
 }
@@ -101,6 +103,7 @@
 .checkbox:checked ~ .hamburger-lines {
   height: calc(32 / 16 * 1rem);
 }
+
 .checkbox:checked {
   height: calc(32 / 16 * 1rem);
 }
@@ -152,7 +155,8 @@
     display: flex;
     gap: calc(8 / 16 * 1rem);
   }
-  .btn-login{
+
+  .btn-login {
     border: calc(2 / 16 * 1rem) solid transparent;
   }
 
