@@ -11,10 +11,13 @@
   grid-template-columns: 1fr;
   margin: calc(40 / 16 * 1rem) calc(16 / 16 * 1rem) 0;
 }
+.cover-business-img {
+  min-height: calc(83 / 16 * 1rem);
+  margin: calc(16 / 16 * 1rem) 0 calc(52 / 16 * 1rem) 0;
+}
 
 .business-img {
   width: fit-content;
-  margin: calc(16 / 16 * 1rem) 0 calc(52 / 16 * 1rem) 0;
 }
 
 .feature-toggle-text {
