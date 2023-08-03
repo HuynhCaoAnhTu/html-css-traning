@@ -20,6 +20,7 @@
 
 .pricing-feature-toggle {
   cursor: pointer;
+  width: fit-content;
 }
 
 .icon-play {
