@@ -24,7 +24,7 @@
 .btn--primary:hover {
   border: calc(2 / 16 * 1rem) solid var(--color-grey);
   transition: 0.3s;
-  box-shadow: 0 3px #21212133;
+  box-shadow: 0 calc(3/16 * 1rem) #21212133;
 }
 
 .btn--secondary:hover {
@@ -32,7 +32,7 @@
   background-color: transparent;
   color: var(--color-grey);
   transition: 0.3s;
-  box-shadow: 0 3px #21212133;
+  box-shadow: 0 calc(3/16 * 1rem) #21212133;
 }
 
 .btn--primary:hover {
@@ -41,5 +41,5 @@
   color: var(--color-white);
   opacity: 1;
   transition: 0.3s;
-  box-shadow: 0 3px #21212133;
+  box-shadow: 0 calc(3/16 * 1rem) #21212133;
 }
