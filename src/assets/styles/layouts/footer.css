@@ -34,7 +34,7 @@
   display: flex;
   padding-bottom: calc(24 / 16 * 1rem);
   gap: calc(12 / 16 * 1rem);
-  min-height: 57px;
+  min-height: calc(57 / 16 * 1rem);
 }
 
 .end-footer {
