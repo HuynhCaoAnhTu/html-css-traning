@@ -1,32 +1,42 @@
-.prices-title {
-  margin: calc(32 / 16 * 1rem) calc(40 / 16 * 1rem) 0;
+/* .prices-title {
+  padding: calc(36 / 16 * 1rem) calc(40 / 16 * 1rem) 0;
   display: flex;
   flex-direction: column;
   gap: calc(16 / 16 * 1rem);
   text-align: center;
+}
+.prices-title-desc {
+  max-width: calc(256 / 16 * 1rem);
+  margin: 0 auto;
 }
 
 .pricing-card-container {
   display: grid;
   grid-template-columns: 1fr;
   margin: calc(40 / 16 * 1rem) calc(16 / 16 * 1rem) 0;
-}
-.cover-business-img {
-  min-height: calc(83 / 16 * 1rem);
-  margin: calc(16 / 16 * 1rem) 0 calc(52 / 16 * 1rem) 0;
+} */
+
+.prices {
+  margin-bottom: calc(16 / 16 * 1rem);
 }
 
-.business-img {
-  width: fit-content;
+.prices-title {
+  margin: calc(36 / 16 * 1rem) calc(40 / 16 * 1rem) 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(16 / 16 * 1rem);
+  text-align: center;
+}
+.prices-title-desc {
+  max-width: calc(256 / 16 * 1rem);
+  margin: 0 auto;
 }
 
-.feature-toggle-text {
-  margin-right: calc(12 / 16 * 1rem);
-  color: var(--color-black);
-  font-family: Inter-Bold;
-  font-size: calc(16 / 16 * 1rem);
-  font-weight: 600;
-  line-height: calc(24 / 16 * 1rem);
+.pricing-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: calc(22 / 16 * 1rem);
+  margin: calc(40 / 16 * 1rem) calc(16 / 16 * 1rem) 0;
 }
 
 .icon-play {
@@ -36,8 +46,12 @@
 }
 
 @media screen and (min-width: 992px) {
-  .prices-title {
-    margin-top: calc(56 / 16 * 1rem);
+  .prices {
+    margin: calc(57 / 16 * 1rem) auto 0;
+  }
+
+  .prices-title-desc {
+    max-width: fit-content;
   }
 
   .prices-title .text--headline-bg {
@@ -49,16 +63,13 @@
   .pricing-card-container {
     grid-template-columns: 1fr 1.1fr 1fr;
     margin: calc(56 / 16 * 1rem) calc(64 / 16 * 1rem) 0;
+    gap: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .prices-title {
-    margin-top: calc(72 / 16 * 1rem);
-  }
-
   .prices-title .text--headline-bg {
-    font-size: calc(80 / 16 * 1rem);
+    font-size: calc(72 / 16 * 1rem);
     font-weight: 600;
     line-height: calc(80 / 16 * 1rem);
   }
@@ -69,6 +80,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .prices {
+    margin-top: calc(72 / 16 * 1rem);
+  }
+
   .pricing-card-container {
     margin: calc(72 / 16 * 1rem) 0 0;
     grid-template-columns: 1fr 1.04fr 1fr;

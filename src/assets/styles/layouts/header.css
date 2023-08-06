@@ -1,5 +1,5 @@
 .header {
-  padding-top: calc(48 / 16 * 1rem);
+  padding-top: calc(49 / 16 * 1rem);
   margin: 0 calc(32 / 16 * 1rem);
   display: flex;
   justify-content: space-between;
@@ -11,19 +11,7 @@
   min-height: calc(40 / 16 * 1rem);
 }
 
-.header-nav-list {
-  display: none;
-}
-
-.header-button {
-  display: none;
-}
-
-.menu-content {
-  display: none;
-}
-
-.menu-icon {
+.header-toggle {
   position: relative;
 }
 
@@ -43,7 +31,9 @@
   box-shadow: 0 calc(8 / 16 * 1rem) calc(16 / 16 * 1rem) 0 rgba(0, 0, 0, 0.1);
 }
 
-.nav-list > .header-nav-items {
+.header-nav-toggle 
+.header-nav 
+.nav-item {
   width: fit-content;
   padding: calc(8 / 16 * 1rem);
 }
@@ -56,7 +46,7 @@
   font-size: calc(20 / 16 * 1rem);
 }
 
-.menu-list > .header-button {
+.menu-list > .header-cta {
   display: flex;
   gap: calc(8 / 16 * 1rem);
   justify-content: center;
@@ -65,7 +55,7 @@
 .checkbox {
   position: absolute;
   display: block;
-  height: calc(12 / 16 * 1rem);
+  height: calc(20 / 16 * 1rem);
   width: calc(32 / 16 * 1rem);
   margin: 0;
   z-index: 5;
@@ -77,7 +67,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: calc(12 / 16 * 1rem);
+  height: calc(20 / 16 * 1rem);
   width: calc(32 / 16 * 1rem);
   position: relative;
   z-index: 2;
@@ -126,10 +116,7 @@
 @media (min-width: 992px) {
   .header {
     margin: 0 calc(64 / 16 * 1rem);
-  }
-  .header-logo {
-    min-width: calc(137 / 16 * 1rem);
-    min-height: calc(48 / 16 * 1rem);
+    padding-top: calc(45 / 16 * 1rem);
   }
 }
 
@@ -137,14 +124,7 @@
   .header {
     flex-direction: row;
     margin: 0 calc(112 / 16 * 1rem);
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
-  .menu-list {
-    display: none;
+    padding-top: calc(48 / 16 * 1rem);
   }
 
   .header-content {
@@ -153,14 +133,17 @@
     align-items: center;
   }
 
-  .header-nav-list {
+  .header-narbar{
+    margin-left: calc(55 / 16 * 1rem);
+  }
+
+  .narbar-nav {
     display: flex;
     flex-direction: row;
-    margin-left: calc(55 / 16 * 1rem);
     gap: calc(49 / 16 * 1rem);
   }
 
-  .header-button {
+  .header-cta {
     display: flex;
     gap: calc(8 / 16 * 1rem);
   }
@@ -176,8 +159,10 @@
     box-shadow: 0 calc(3 / 16 * 1rem) #21212133;
   }
 }
+
 @media (min-width: 1440px) {
   .header {
     margin: 0 auto;
   }
+  
 }
