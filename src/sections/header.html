@@ -3,98 +3,66 @@
     <h1 class="header-logo">
       <a href="javascript:void(0)">
         <picture>
-          <source
-            media="(min-width: 992px)"
-            srcset="/src/assets/images/header/header-logo.png"
-          />
-          <img
-            class="header-logo-image"
-            src="/src/assets/images/header/mobile/header-logo.png"
-            alt="Logo-Solo"
-          />
+          <source media="(min-width: 992px)" srcset="/src/assets/images/header/header-logo.png" />
+          <img class="header-logo-image" src="/src/assets/images/header/mobile/header-logo.png" alt="Logo-Solo" />
         </picture>
       </a>
     </h1>
-    <nav class="header-nav">
-      <ul class="header-nav-list">
-        <li class="header-nav-items">
+    <nav class="header-narbar d-sm-none d-xl-block">
+      <ul class="narbar-nav">
+        <li class="nav-item">
           <a class="text--nav-link" href="javascript:void(0)">Downloads</a>
         </li>
-        <li class="header-nav-items">
-          <a class="text--nav-link nav-link-active" href="javascript:void(0)"
-            >Pricing</a
-          >
+        <li class="nav-item">
+          <a class="text--nav-link nav-link-active" href="javascript:void(0)">Pricing</a>
         </li>
-        <li class="header-nav-items">
+        <li class="nav-item">
           <a class="text--nav-link" href="javascript:void(0)"> Features</a>
         </li>
-        <li class="header-nav-items">
+        <li class="nav-item">
           <a class="text--nav-link" href="javascript:void(0)">About Us</a>
         </li>
-        <li class="header-nav-items">
+        <li class="nav-item">
           <a class="text--nav-link" href="javascript:void(0)">Contact</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="menu-icon">
+  <div class="header-toggle d-xl-none">
     <input class="checkbox" type="checkbox" />
     <div class="hamburger-lines">
       <span class="line line1"></span>
       <span class="line line3"></span>
     </div>
-    <div class="menu-content">
+    <div class="menu-content d-sm-none d-lg-none">
       <div class="menu-list">
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="header-nav-items">
-              <a
-                class="text--nav-link nav-link-mobile"
-                href="javascript:void(0)"
-                >Downloads</a
-              >
+        <nav class="header-nav-toggle">
+          <ul class="narbar-nav">
+            <li class="nav-item">
+              <a class="text--nav-link nav-link-mobile" href="javascript:void(0)">Downloads</a>
             </li>
-            <li class="header-nav-items">
-              <a
-                class="text--nav-link nav-link-active nav-link-mobile"
-                href="javascript:void(0)"
-                >Pricing</a
-              >
+            <li class="nav-item">
+              <a class="text--nav-link nav-link-active nav-link-mobile" href="javascript:void(0)">Pricing</a>
             </li>
-            <li class="header-nav-items">
-              <a
-                class="text--nav-link nav-link-mobile"
-                href="javascript:void(0)"
-              >
-                Features</a
-              >
+            <li class="nav-item">
+              <a class="text--nav-link nav-link-mobile" href="javascript:void(0)"> Features</a>
             </li>
-            <li class="header-nav-items">
-              <a
-                class="text--nav-link nav-link-mobile"
-                href="javascript:void(0)"
-                >About Us</a
-              >
+            <li class="nav-item">
+              <a class="text--nav-link nav-link-mobile" href="javascript:void(0)">About Us</a>
             </li>
-            <li class="header-nav-items">
-              <a
-                class="text--nav-link nav-link-mobile"
-                href="javascript:void(0)"
-                >Contact</a
-              >
+            <li class="nav-item">
+              <a class="text--nav-link nav-link-mobile" href="javascript:void(0)">Contact</a>
             </li>
           </ul>
         </nav>
-        <div class="header-button">
+        <div class="header-cta">
           <button type="button" class="btn--common btn--primary">Login</button>
-          <button type="button" class="btn--common btn--secondary">
-            Sign up
-          </button>
+          <button type="button" class="btn--common btn--secondary"> Sign up </button>
         </div>
       </div>
     </div>
   </div>
-  <div class="header-button">
+  <div class="header-cta d-sm-none d-xl-block">
     <button type="button" class="btn--common btn-login">Login</button>
     <button type="button" class="btn--common btn--secondary">Sign up</button>
   </div>
