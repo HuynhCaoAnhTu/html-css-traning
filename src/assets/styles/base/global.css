@@ -2,9 +2,45 @@ html {
   font-size: 16px;
   background: #eeeff2;
 }
+
+.d-sm-none {
+  display: none;
+}
+
+.d-sm-block {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
+}
+
 @media (min-width: 1440px) {
   .container {
-    width: 1120px;
-    margin: 0 auto;
+    max-width: 1120px;
+  }
+
+  .d-xxl-none {
+    display: none;
+  }
+
+  .d-xxl-block {
+    display: block;
   }
 }
