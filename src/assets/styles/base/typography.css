@@ -56,27 +56,15 @@
   font-family: Poppins-SemiBold;
   font-size: calc(40 / 16 * 1rem);
   font-weight: 600;
-  line-height: var(--lh-medium);
+  line-height: calc(48 / 16 * 1rem);
 }
 
 .text--headline-md {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size: calc(20 / 16 * 1rem);
+  font-size: calc(24 / 16 * 1rem);
   font-weight: 600;
-  line-height: calc(24 / 16 * 1rem);
-}
-
-.text--black {
-  color: var(--color-black);
-}
-
-.text--white {
-  color: var(--color-white);
-}
-
-.text--grey {
-  color: var(--color-grey);
+  line-height: calc(32 / 16 * 1rem);
 }
 
 .text--nav-link:hover {
