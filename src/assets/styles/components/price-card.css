@@ -263,7 +263,7 @@
 
   .card:nth-child(2) .pricing-features {
     padding-bottom: calc(93 / var(--root-size) * 1rem);
-    bottom: calc(37 / var(--root-size) * 1rem);
+    bottom: calc(38 / var(--root-size) * 1rem);
   }
 
   .pricing-feature-list {
