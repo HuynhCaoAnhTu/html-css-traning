@@ -38,33 +38,33 @@
 .text--nav-link {
   color: var(--color-grey);
   font-family: Inter-SemiBold;
-  font-size: calc(16 /  var(--root-size) * 1rem);
+  font-size: calc(16 / var(--root-size) * 1rem);
   font-weight: 600;
-  line-height: calc(24 /  var(--root-size) * 1rem);
+  line-height: calc(24 / var(--root-size) * 1rem);
 }
 
 .text--medium {
   color: var(--color-grey);
   font-family: Inter-Medium;
-  font-size: calc(16 /  var(--root-size) * 1rem);
+  font-size: calc(16 / var(--root-size) * 1rem);
   font-weight: 500;
-  line-height: calc(24 /  var(--root-size) * 1rem);
+  line-height: calc(24 / var(--root-size) * 1rem);
 }
 
 .text--headline-bg {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size: calc(40 /  var(--root-size) * 1rem);
+  font-size: calc(40 / var(--root-size) * 1rem);
   font-weight: 600;
-  line-height: calc(48 /  var(--root-size) * 1rem);
+  line-height: calc(48 / var(--root-size) * 1rem);
 }
 
 .text--headline-md {
   color: var(--color-black);
   font-family: Poppins-SemiBold;
-  font-size: calc(24 /  var(--root-size) * 1rem);
+  font-size: calc(24 / var(--root-size) * 1rem);
   font-weight: 600;
-  line-height: calc(32 /  var(--root-size) * 1rem);
+  line-height: calc(32 / var(--root-size) * 1rem);
 }
 
 .text--nav-link:hover {
