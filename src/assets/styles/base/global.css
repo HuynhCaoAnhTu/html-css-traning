@@ -8,7 +8,7 @@ html {
 }
 
 .d-sm-block {
-  display: none;
+  display: block;
 }
 
 @media (min-width: 992px) {
