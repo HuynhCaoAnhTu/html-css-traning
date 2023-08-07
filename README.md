@@ -48,6 +48,19 @@ Actual: **6 days**
 
 * Vercel: https://practice-two-tu.vercel.app/
 
+## Browser & Devices tested
+
+### Browser
+
+* OperaGX (100.0.4815.82)  
+* Chrome (115.0.5790.171)
+
+### Devices
+
+* Mobile: Realme Neo 2T, Iphone 11, Samsung Galaxy 7, 
+* Tablet: Ipad 8, Samsung Galaxy Tab A7
+* Latop: Macbook Air 2020 , Acer Nitro 5 2022
+
 
 ## Getting started:
 
