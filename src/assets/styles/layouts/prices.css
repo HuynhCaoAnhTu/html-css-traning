@@ -1,36 +1,35 @@
-
 .prices {
-  margin-bottom: calc(16 / 16 * 1rem);
+  margin-bottom: calc(16 /  var(--root-size) * 1rem);
 }
 
 .prices-title {
-  margin: calc(36 / 16 * 1rem) calc(40 / 16 * 1rem) 0;
+  margin: calc(36 /  var(--root-size) * 1rem) calc(40 /  var(--root-size) * 1rem) 0;
   display: flex;
   flex-direction: column;
-  gap: calc(16 / 16 * 1rem);
+  gap: calc(16 /  var(--root-size) * 1rem);
   text-align: center;
 }
 .prices-title-desc {
-  max-width: calc(256 / 16 * 1rem);
+  max-width: calc(256 /  var(--root-size) * 1rem);
   margin: 0 auto;
 }
 
 .pricing-card-content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: calc(22 / 16 * 1rem);
-  margin: calc(40 / 16 * 1rem) calc(16 / 16 * 1rem) 0;
+  gap: calc(22 /  var(--root-size) * 1rem);
+  margin: calc(40 /  var(--root-size) * 1rem) calc(16 /  var(--root-size) * 1rem) 0;
 }
 
 .icon-play {
-  font-size: calc(13 / 16 * 1rem);
-  margin-right: calc(9 / 16 * 1rem);
-  margin-left: calc(4 / 16 * 1rem);
+  font-size: calc(13 /  var(--root-size) * 1rem);
+  margin-right: calc(9 /  var(--root-size) * 1rem);
+  margin-left: calc(4 /  var(--root-size) * 1rem);
 }
 
 @media screen and (min-width: 992px) {
   .prices {
-    margin: calc(57 / 16 * 1rem) auto 0;
+    margin: calc(57 /  var(--root-size) * 1rem) auto 0;
   }
 
   .prices-title-desc {
@@ -38,37 +37,37 @@
   }
 
   .prices-title .text--headline-bg {
-    font-size: calc(48 / 16 * 1rem);
+    font-size: calc(48 /  var(--root-size) * 1rem);
     font-weight: 600;
-    line-height: calc(56 / 16 * 1rem);
+    line-height: calc(56 /  var(--root-size) * 1rem);
   }
 
   .pricing-card-content {
     grid-template-columns: 1fr 1.1fr 1fr;
-    margin: calc(56 / 16 * 1rem) calc(64 / 16 * 1rem) 0;
+    margin: calc(56 /  var(--root-size) * 1rem) calc(64 /  var(--root-size) * 1rem) 0;
     gap: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .prices-title .text--headline-bg {
-    font-size: calc(72 / 16 * 1rem);
+    font-size: calc(72 /  var(--root-size) * 1rem);
     font-weight: 600;
-    line-height: calc(80 / 16 * 1rem);
+    line-height: calc(80 /  var(--root-size) * 1rem);
   }
 
   .pricing-card-content {
-    margin: calc(72 / 16 * 1rem) calc(112 / 16 * 1rem) 0;
+    margin: calc(72 /  var(--root-size) * 1rem) calc(112 /  var(--root-size) * 1rem) 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .prices {
-    margin-top: calc(72 / 16 * 1rem);
+    margin-top: calc(72 /  var(--root-size) * 1rem);
   }
 
   .pricing-card-content {
-    margin: calc(72 / 16 * 1rem) 0 0;
+    margin: calc(72 /  var(--root-size) * 1rem) 0 0;
     grid-template-columns: 1fr 1.04fr 1fr;
   }
 }
