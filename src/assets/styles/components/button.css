@@ -1,45 +1,45 @@
 .btn--common {
-  padding: calc(14 /  var(--root-size) * 1rem) calc(22 /  var(--root-size) * 1rem);
-  border-radius: calc(16 /  var(--root-size) * 1rem);
+  padding: calc(14 / var(--root-size) * 1rem) calc(22 / var(--root-size) * 1rem);
+  border-radius: 16px;
   font-family: Inter-Bold;
-  font-size: calc(16 /  var(--root-size) * 1rem);
+  font-size: calc(16 / var(--root-size) * 1rem);
   font-weight: var(--fw-medium);
-  line-height: calc(24 /  var(--root-size) * 1rem);
+  line-height: calc(24 / var(--root-size) * 1rem);
   width: fit-content;
   cursor: pointer;
 }
 
 .btn--primary {
-  border: calc(2 /  var(--root-size) * 1rem) solid var(--color-black);
+  border: 2px solid var(--color-black);
   opacity: 0.75;
   color: #272e35;
 }
 
 .btn--secondary {
-  border: calc(2 /  var(--root-size) * 1rem) solid var(--color-orange);
+  border: 2px solid var(--color-orange);
   background: var(--color-orange);
   color: var(--color-white);
 }
 
 .btn--primary:hover {
-  border: calc(2 /  var(--root-size) * 1rem) solid var(--color-grey);
+  border: 2px solid var(--color-grey);
   transition: 0.3s;
-  box-shadow: 0 calc(3/ var(--root-size) * 1rem) #21212133;
+  box-shadow: 0 3px #21212133;
 }
 
 .btn--secondary:hover {
-  border: calc(2 /  var(--root-size) * 1rem) solid var(--color-grey);
+  border: 2px solid var(--color-grey);
   background-color: transparent;
   color: var(--color-grey);
   transition: 0.3s;
-  box-shadow: 0 calc(3/ var(--root-size) * 1rem) #21212133;
+  box-shadow: 0 3px #21212133;
 }
 
 .btn--primary:hover {
-  border: calc(2 /  var(--root-size) * 1rem) solid var(--color-orange);
+  border: 2px solid var(--color-orange);
   background: var(--color-orange);
   color: var(--color-white);
   opacity: 1;
   transition: 0.3s;
-  box-shadow: 0 calc(3/ var(--root-size) * 1rem) #21212133;
+  box-shadow: 0 3px #21212133;
 }
