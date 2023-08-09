@@ -1,8 +1,7 @@
 .card {
   background: #f7f7f8;
   border-radius: 24px;
-  padding: calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem)
-    calc(24 / var(--root-size) * 1rem);
+  padding: calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
 }
 
 .price-type {
@@ -159,17 +158,14 @@
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid #eaecf1;
-    padding: calc(40 / var(--root-size) * 1rem) 0
-      calc(47 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(40 / var(--root-size) * 1rem) 0 calc(47 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 
   .card:nth-child(2) .pricing-card {
     background-color: #fff;
-    padding: calc(8 / var(--root-size) * 1rem) calc(8 / var(--root-size) * 1rem)
-      calc(80 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(8 / var(--root-size) * 1rem) calc(8 / var(--root-size) * 1rem) calc(80 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
     border-radius: 24px;
-    box-shadow: 0 calc(8 / var(--root-size) * 1rem)
-      calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 calc(8 / var(--root-size) * 1rem) calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 2;
   }
@@ -208,19 +204,15 @@
 
   .card:nth-child(1) .pricing-features .feature-title {
     margin-left: calc(24 / var(--root-size) * 1rem);
-    padding: calc(69 / var(--root-size) * 1rem) 0
-      calc(37 / var(--root-size) * 1rem) 0;
+    padding: calc(69 / var(--root-size) * 1rem) 0 calc(37 / var(--root-size) * 1rem) 0;
   }
 
   .card:nth-child(2) .pricing-features .feature-title {
-    padding: calc(70 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem) calc(35 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem);
+    padding: calc(70 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 
   .card:nth-child(3) .pricing-features .feature-title {
-    padding: calc(70 / var(--root-size) * 1rem) 0
-      calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(70 / var(--root-size) * 1rem) 0 calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
     margin-right: calc(24 / var(--root-size) * 1rem);
   }
 
@@ -231,8 +223,7 @@
 
   .pricing-feature-list {
     margin: 0;
-    padding: calc(43 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem) 0 calc(24 / var(--root-size) * 1rem);
+    padding: calc(43 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) 0 calc(24 / var(--root-size) * 1rem);
   }
 }
 
@@ -268,7 +259,6 @@
 
   .pricing-feature-list {
     margin: 0;
-    padding: calc(43 / var(--root-size) * 1rem)
-      calc(40 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(43 / var(--root-size) * 1rem) calc(40 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 }
