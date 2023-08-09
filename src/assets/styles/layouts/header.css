@@ -28,8 +28,7 @@
   border-radius: 24px;
   background: #eaecf1;
   border: 2px solid var(--color-orange);
-  box-shadow: 0 calc(8 / var(--root-size) * 1rem)
-    calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 calc(8 / var(--root-size) * 1rem) calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
 }
 
 .header-nav-toggle .header-nav .nav-item {
