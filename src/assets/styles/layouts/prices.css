@@ -11,8 +11,7 @@
   text-align: center;
 }
 .prices-title-desc {
-  max-width: calc(256 / var(--root-size) * 1rem);
-  margin: 0 auto;
+  padding:0 8px ;
 }
 
 .prices-content {
@@ -35,7 +34,8 @@
   }
 
   .prices-title-desc {
-    max-width: fit-content;
+   padding: 0;
+   margin: 0 auto;
   }
 
   .prices-title .text--headline-bg {
