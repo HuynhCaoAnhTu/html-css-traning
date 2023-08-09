@@ -82,7 +82,7 @@
 }
 
 .answer-text {
-  max-width: calc(295 / var(--root-size) * 1rem);
+  padding-right:calc(44 / var(--root-size) * 1rem);
   color: var(--color-grey);
   font-family: Inter-Medium;
   font-size: calc(16 / var(--root-size) * 1rem);
@@ -142,6 +142,7 @@
 
   .answer-text {
     max-width: calc(373 / var(--root-size) * 1rem);
+    padding-right: 0;
   }
 
   .feature-question-img-cover {
