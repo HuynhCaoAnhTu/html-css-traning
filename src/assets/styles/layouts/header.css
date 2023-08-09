@@ -1,4 +1,4 @@
-.header {
+.main-header {
   padding-top: calc(49 / var(--root-size) * 1rem);
   margin: 0 calc(32 / var(--root-size) * 1rem);
   display: flex;
@@ -113,14 +113,14 @@
 }
 
 @media (min-width: 992px) {
-  .header {
+  .main-header {
     margin: 0 calc(64 / var(--root-size) * 1rem);
     padding-top: calc(45 / var(--root-size) * 1rem);
   }
 }
 
 @media (min-width: 1200px) {
-  .header {
+  .main-header {
     flex-direction: row;
     margin: 0 calc(112 / var(--root-size) * 1rem);
     padding-top: calc(48 / var(--root-size) * 1rem);
@@ -160,7 +160,7 @@
 }
 
 @media (min-width: 1440px) {
-  .header {
+  .main-header {
     margin: 0 auto;
   }
 }
