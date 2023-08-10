@@ -3,13 +3,13 @@
 }
 
 .prices-title {
-  margin: calc(36 / var(--root-size) * 1rem) calc(40 / var(--root-size) * 1rem)
-    0;
+  margin: calc(36 / var(--root-size) * 1rem) calc(40 / var(--root-size) * 1rem) 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
   text-align: center;
 }
+
 .prices-title-desc {
   max-width: calc(256 / var(--root-size) * 1rem);
   margin: 0 auto;
@@ -19,8 +19,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 22px;
-  margin: calc(40 / var(--root-size) * 1rem) calc(16 / var(--root-size) * 1rem)
-    0;
+  margin: calc(40 / var(--root-size) * 1rem) calc(16 / var(--root-size) * 1rem) 0;
 }
 
 .icon-play {
@@ -46,8 +45,7 @@
 
   .prices-content {
     grid-template-columns: 1fr 1.1fr 1fr;
-    margin: calc(56 / var(--root-size) * 1rem)
-      calc(64 / var(--root-size) * 1rem) 0;
+    margin: calc(56 / var(--root-size) * 1rem) calc(64 / var(--root-size) * 1rem) 0;
     gap: 0;
   }
 }
