@@ -1,8 +1,7 @@
 .subscription-item {
   background: #f7f7f8;
   border-radius: 24px;
-  padding: calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem)
-    calc(24 / var(--root-size) * 1rem);
+  padding: calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
 }
 
 .price-type {
@@ -169,11 +168,9 @@
 
   .subscription-item:nth-child(2) .subscription-pricing {
     background-color: #fff;
-    padding: calc(8 / var(--root-size) * 1rem) calc(8 / var(--root-size) * 1rem)
-      calc(80 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(8 / var(--root-size) * 1rem) calc(8 / var(--root-size) * 1rem) calc(80 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
     border-radius: 24px;
-    box-shadow: 0 calc(8 / var(--root-size) * 1rem)
-      calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 calc(8 / var(--root-size) * 1rem) calc(16 / var(--root-size) * 1rem) 0 rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 2;
   }
@@ -226,8 +223,7 @@
 
   .subscription-item:nth-child(1) .subscription-features .feature-title {
     margin-left: calc(24 / var(--root-size) * 1rem);
-    padding: calc(69 / var(--root-size) * 1rem) 0
-      calc(37 / var(--root-size) * 1rem) 0;
+    padding: calc(69 / var(--root-size) * 1rem) 0 calc(37 / var(--root-size) * 1rem) 0;
   }
 
   .subscription-item:nth-child(2) .subscription-features .feature-title {
@@ -246,8 +242,7 @@
 
   .subscription-features-list {
     margin: 0;
-    padding: calc(43 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem) 0 calc(24 / var(--root-size) * 1rem);
+    padding: calc(43 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) 0 calc(24 / var(--root-size) * 1rem);
   }
 }
 
@@ -283,7 +278,6 @@
 
   .subscription-features-list {
     margin: 0;
-    padding: calc(43 / var(--root-size) * 1rem)
-      calc(40 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(43 / var(--root-size) * 1rem) calc(40 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 }
