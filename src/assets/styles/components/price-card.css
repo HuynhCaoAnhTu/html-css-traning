@@ -1,4 +1,4 @@
-.card {
+.subscription-item {
   background: #f7f7f8;
   border-radius: 24px;
   padding: calc(24 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem)
@@ -20,7 +20,7 @@
   opacity: 0.1;
 }
 
-.pricing-card-price {
+.subscription-fee {
   margin-top: calc(24 / var(--root-size) * 1rem);
 }
 
@@ -46,11 +46,11 @@
   vertical-align: baseline;
 }
 
-.pricing-card-desc {
-  max-width: calc(200 / var(--root-size) * 1rem);
+.subscription-desc {
+  padding-right: calc(72 / var(--root-size) * 1rem);
   margin-top: calc(62 / var(--root-size) * 1rem);
 }
-.pricing-card-button {
+.subscription-button {
   margin-top: calc(32 / var(--root-size) * 1rem);
 }
 
@@ -89,14 +89,14 @@
   background-size: cover;
 }
 
-.pricing-feature-list {
+.subscription-features-list {
   display: flex;
   flex-direction: column;
   gap: 29px;
   margin-top: calc(32 / var(--root-size) * 1rem);
 }
 
-.pricing-feature-item {
+.subscription-features-item {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -131,39 +131,43 @@
 }
 
 @media screen and (min-width: 992px) {
-  .card {
+  .subscription-item {
     background: var(--color-light-background, #f7f7f8);
     padding: 0 0 calc(101 / var(--root-size) * 1rem) 0;
   }
 
-  .card:nth-child(1) {
+  .subscription-item:nth-child(1) {
     border-radius: 24px 0 0 24px;
     margin-top: calc(32 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(3) {
+  .subscription-item:nth-child(3) {
     border-radius: 0 24px 24px 0;
     margin-top: calc(32 / var(--root-size) * 1rem);
     padding-bottom: calc(100 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) {
+  .subscription-item:nth-child(2) {
     position: relative;
     border-radius: 24px 24px 0 0;
     padding-top: 0;
   }
 
-  /* pricing-card */
+  /* subscription-pricing */
 
-  .pricing-card {
+  .subscription-pricing {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid #eaecf1;
-    padding: calc(40 / var(--root-size) * 1rem) 0
-      calc(47 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+    padding: calc(40 / var(--root-size) * 1rem) 0 calc(47 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) .pricing-card {
+  .subscription-desc{
+    max-width: calc(200 / var(--root-size) * 1rem);
+    padding-right: 0;
+  }
+
+  .subscription-item:nth-child(2) .subscription-pricing {
     background-color: #fff;
     padding: calc(8 / var(--root-size) * 1rem) calc(8 / var(--root-size) * 1rem)
       calc(80 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
@@ -178,6 +182,20 @@
     align-self: flex-end;
     margin-bottom: calc(32 / var(--root-size) * 1rem);
   }
+
+  .icon-play{
+    display: inline-block;
+    background-image: url(/src/assets/images/prices/play-icon-grey.svg);
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 8px;
+  }
+
+  .subscription-button:hover .icon-play{
+    background-image: url(/src/assets/images/prices/play-icon-white.svg);
+    transition: 0.3s;
+  }
+
 
   /* prcing-features  */
 
@@ -196,7 +214,7 @@
     line-height: calc(24 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) .pricing-features {
+  .subscription-item:nth-child(2) .subscription-features {
     background: var(--color-light-background, #fff);
     border-radius: 0 0 24px 24px;
     position: absolute;
@@ -206,21 +224,18 @@
     padding-bottom: calc(120 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(1) .pricing-features .feature-title {
+  .subscription-item:nth-child(1) .subscription-features .feature-title {
     margin-left: calc(24 / var(--root-size) * 1rem);
     padding: calc(69 / var(--root-size) * 1rem) 0
       calc(37 / var(--root-size) * 1rem) 0;
   }
 
-  .card:nth-child(2) .pricing-features .feature-title {
-    padding: calc(70 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem) calc(35 / var(--root-size) * 1rem)
-      calc(24 / var(--root-size) * 1rem);
+  .subscription-item:nth-child(2) .subscription-features .feature-title {
+    padding: calc(70 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem) calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(3) .pricing-features .feature-title {
-    padding: calc(70 / var(--root-size) * 1rem) 0
-      calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+  .subscription-item:nth-child(3) .subscription-features .feature-title {
+    padding: calc(70 / var(--root-size) * 1rem) 0 calc(35 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
     margin-right: calc(24 / var(--root-size) * 1rem);
   }
 
@@ -229,7 +244,7 @@
     grid-row-end: 3;
   }
 
-  .pricing-feature-list {
+  .subscription-features-list {
     margin: 0;
     padding: calc(43 / var(--root-size) * 1rem)
       calc(24 / var(--root-size) * 1rem) 0 calc(24 / var(--root-size) * 1rem);
@@ -237,36 +252,36 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .pricing-card {
+  .subscription-pricing {
     padding-left: calc(40 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(3) {
+  .subscription-item:nth-child(3) {
     padding-bottom: calc(75 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) .pricing-card {
+  .subscription-item:nth-child(2) .subscription-pricing {
     padding-left: calc(40 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) .pricing-features .feature-title {
+  .subscription-item:nth-child(2) .subscription-features .feature-title {
     padding-left: calc(40 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(1) .pricing-features .feature-title {
+  .subscription-item:nth-child(1) .subscription-features .feature-title {
     margin-left: calc(40 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(3) .pricing-features .feature-title {
+  .subscription-item:nth-child(3) .subscription-features .feature-title {
     padding-left: calc(40 / var(--root-size) * 1rem);
   }
 
-  .card:nth-child(2) .pricing-features {
+  .subscription-item:nth-child(2) .subscription-features {
     padding-bottom: calc(93 / var(--root-size) * 1rem);
     bottom: calc(38 / var(--root-size) * 1rem);
   }
 
-  .pricing-feature-list {
+  .subscription-features-list {
     margin: 0;
     padding: calc(43 / var(--root-size) * 1rem)
       calc(40 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
