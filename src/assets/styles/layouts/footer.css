@@ -110,7 +110,7 @@
 
   .footer-information {
     padding: 0 0 calc(50 / var(--root-size) * 1rem);
-    column-gap: 42x;
+    column-gap: 41px;
   }
 
   .footer-download {
