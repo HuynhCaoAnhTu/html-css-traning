@@ -21,12 +21,6 @@
   color: var(--color-white);
 }
 
-.btn--primary:hover {
-  border: 2px solid var(--color-grey);
-  transition: 0.3s;
-  box-shadow: 0 3px #21212133;
-}
-
 .btn--secondary:hover {
   border: 2px solid var(--color-grey);
   background-color: transparent;

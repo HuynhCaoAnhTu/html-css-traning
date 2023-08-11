@@ -1,34 +1,42 @@
 @font-face {
   font-family: Inter;
   src: url(/src/assets/fonts/Inter/Inter-Light.woff2) format("woff2");
-
+  font-display: swap;
+}
+@font-face {
   font-family: Inter-ExtraBold;
   src: url(/src/assets/fonts/Inter/Inter-ExtraBold.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Inter-SemiBold;
   src: url(/src/assets/fonts/Inter/Inter-SemiBold.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Inter-Bold;
   src: url(/src/assets/fonts/Inter/Inter-Bold.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Inter-Regular;
   src: url(/src/assets/fonts/Inter/Inter-Regular.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Inter-Medium;
   src: url(/src/assets/fonts/Inter/Inter-Medium.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
   src: url(/src/assets/fonts/Poppins/Poppins-SemiBold.woff) format("woff2");
+  font-display: swap;
 }
 
 /* ------------------
