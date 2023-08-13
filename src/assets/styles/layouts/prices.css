@@ -1,4 +1,4 @@
-.prices {
+.subscription {
   margin-bottom: calc(16 / var(--root-size) * 1rem);
 }
 
@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-.prices-content {
+.list-subscriptions {
   display: grid;
   grid-template-columns: 1fr;
   gap: 22px;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .prices {
+  .subscription {
     margin: calc(57 / var(--root-size) * 1rem) auto 0;
   }
 
@@ -43,7 +43,7 @@
     line-height: calc(56 / var(--root-size) * 1rem);
   }
 
-  .prices-content {
+  .list-subscriptions {
     grid-template-columns: 1fr 1.1fr 1fr;
     margin: calc(56 / var(--root-size) * 1rem) calc(64 / var(--root-size) * 1rem) 0;
     gap: 0;
@@ -57,18 +57,17 @@
     line-height: calc(80 / var(--root-size) * 1rem);
   }
 
-  .prices-content {
-    margin: calc(72 / var(--root-size) * 1rem)
-      calc(112 / var(--root-size) * 1rem) 0;
+  .list-subscriptions {
+    margin: calc(72 / var(--root-size) * 1rem) calc(112 / var(--root-size) * 1rem) 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .prices {
+  .subscription {
     margin-top: calc(72 / var(--root-size) * 1rem);
   }
 
-  .prices-content {
+  .list-subscriptions {
     margin: calc(72 / var(--root-size) * 1rem) 0 0;
     grid-template-columns: 1fr 1.04fr 1fr;
   }
