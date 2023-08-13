@@ -179,7 +179,7 @@
     margin-bottom: calc(32 / var(--root-size) * 1rem);
   }
 
-  .icon-play{
+  .icon-play {
     display: inline-block;
     background-image: url(/src/assets/images/prices/play-icon-grey.svg);
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@
     width: 8px;
   }
 
-  .pricing-card-button:hover .icon-play{
+  .pricing-card-button:hover .icon-play {
     background-image: url(/src/assets/images/prices/play-icon-white.svg);
     transition: 0.3s;
   }
