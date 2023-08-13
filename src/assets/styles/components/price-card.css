@@ -46,7 +46,7 @@
 }
 
 .pricing-card-desc {
-  max-width: calc(200 / var(--root-size) * 1rem);
+  padding-right: calc(72 / var(--root-size) * 1rem);
   margin-top: calc(62 / var(--root-size) * 1rem);
 }
 .pricing-card-button {
@@ -159,6 +159,11 @@
     flex-direction: column;
     border-bottom: 2px solid #eaecf1;
     padding: calc(40 / var(--root-size) * 1rem) 0 calc(47 / var(--root-size) * 1rem) calc(24 / var(--root-size) * 1rem);
+  }
+
+  .pricing-card-desc {
+    max-width: calc(200 / var(--root-size) * 1rem);
+    padding-right: 0;
   }
 
   .card:nth-child(2) .pricing-card {
